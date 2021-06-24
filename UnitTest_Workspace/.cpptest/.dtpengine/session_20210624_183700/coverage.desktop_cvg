@@ -1,0 +1,10 @@
+Type:LC
+Resource:C:\CI_hew\UnitTest_Workspace\UnitTest\sample.c
+Element:/UnitTest/sample.c;4;sampleTest|sampleTest
+Static:5 6 7
+Element:/UnitTest/sample.c;10;sub_sampleTest|sub_sampleTest
+Static:12
+Element:/UnitTest/sample.c;10;sub_sampleTest
+Dynamic:3042843597720601147@CPP://-2398500523183416080;12
+Element:/UnitTest/sample.c;4;sampleTest
+Dynamic:3042843597720601147@CPP://-2398500523183416080;5 6 7

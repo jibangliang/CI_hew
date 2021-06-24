@@ -1,0 +1,4 @@
+fileName=c:\program files (x86)\renesas\hew_002\tools\renesas\sh\9_4_3\bin\shc.exe
+workingDir=C:\CI_hew\UnitTest_Workspace\make
+compilerOptions=-cpu=sh4a -endian=little -debug -gbr=auto -global_volatile=0 -opt_range=all -infinite_loop=0 -del_vacant_loop=0 -struct_alloc=1 -nologo
+type=C

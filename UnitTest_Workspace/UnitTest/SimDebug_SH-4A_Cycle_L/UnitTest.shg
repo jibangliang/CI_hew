@@ -1,0 +1,5 @@
+-cpu=sh4a
+-endian=little
+-output="C:\UnitTest_Workspace\UnitTest\SimDebug_SH-4A_Cycle_L\UnitTest.lib"
+-gbr=auto
+-head=runtime,new,stdio,stdlib,string

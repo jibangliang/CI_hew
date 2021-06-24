@@ -1,0 +1,803 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ResultsSession buildId="Default Project-2021-06-24" climode="true" execEnv="win32_x86_64" hasViols="true" id="1626344370236" lang="ja_JP" machine="PC-3926" prjModule="UnitTest" project="Default Project" tag="Flow Analysis Standard" time="2021-06-24T18:36:16+09:00" toolDispName="C/C++test" toolId="c++test" toolName="DTP Engine for C/C++" toolVer="2020.2.0" user="bji">
+   <TestConfig machine="PC-3926" name="Flow Analysis Standard" pseudoUrl="C:\CI_hew\tools\Flow Analysis Standard.properties" user="bji" />
+   <Authors>
+      <Author id="dev1" name="bji" />
+   </Authors>
+   <Analyzers>
+      <Analyzer id="com.parasoft.xtest.scope.analyzer" name="Scope Analyzer" ver="10.5.0.20201016" />
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.code" name="Parasoft C/C++ Code Analyzer" ver="10.5.0.20201022B981" />
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.desktop.files.in.scope" name="Helper Scope Analyzer for C/C++test Professional" ver="10.5.0.20201022B981" />
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.pattern" name="Parasoft C/C++ Static Analyzer" ver="10.5.0.20201022B981" />
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.flow" name="Parasoft C/C++ Flow Analyzer" ver="10.5.0.20201013B2287" />
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.global" name="Parasoft C/C++ Global Static Analyzer" ver="10.5.0.20201022B981" />
+   </Analyzers>
+   <VersionInfos>
+      <StorageInfo ownerId="" resultId="ISetupResult" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricsViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IExecutionViolation" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IDupCodeViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IFlowAnalysisViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IFunctionalViolation" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="ICodingStandardsViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IUnitTestViolation" ver="1" ver10x="1" />
+   </VersionInfos>
+   <Goals tsks="9">
+      
+      <History>
+         <Graph id="gls">
+            <Categories>
+               <Category color="red" name="合計" pos="0" />
+            </Categories>
+            <Total secSer="1" title="" xTitle="日付" yTitle="タスク" yTitle2="タスク合計">
+               <X>06-24-21,</X>
+               <Y>9,</Y>
+               <Delta>9,</Delta>
+            </Total>
+         </Graph>
+      </History>
+   
+   </Goals>
+   <Scope>
+      <Repositories />
+      <Locations>
+         <Loc auth="bji" hash="-1075093856" locRef="1" projId="UnitTest" projPath="/UnitTest" project="UnitTest" resProjPath="resetprg.c" totLns="136" uri="file://PC-3926/C:/CI_hew/UnitTest_Workspace/UnitTest/resetprg.c" />
+         <Loc auth="bji" hash="-680717742" locRef="2" projId="UnitTest" projPath="/UnitTest" project="UnitTest" resProjPath="sample.c" totLns="13" uri="file://PC-3926/C:/CI_hew/UnitTest_Workspace/UnitTest/sample.c" />
+         <Loc auth="bji" hash="1595529721" locRef="3" projId="UnitTest" projPath="/UnitTest" project="UnitTest" resProjPath="UnitTest.c" totLns="37" uri="file://PC-3926/C:/CI_hew/UnitTest_Workspace/UnitTest/UnitTest.c" />
+         <Loc auth="bji" hash="1950404136" locRef="4" projId="UnitTest" projPath="/UnitTest" project="UnitTest" resProjPath="lowsrc.c" totLns="235" uri="file://PC-3926/C:/CI_hew/UnitTest_Workspace/UnitTest/lowsrc.c" />
+         <Loc auth="bji" hash="845299456" locRef="5" projId="UnitTest" projPath="/UnitTest" project="UnitTest" resProjPath="dbsct.c" totLns="30" uri="file://PC-3926/C:/CI_hew/UnitTest_Workspace/UnitTest/dbsct.c" />
+         <Loc auth="bji" hash="1226004552" locRef="6" projId="UnitTest" projPath="/UnitTest" project="UnitTest" resProjPath="sbrk.c" totLns="100" uri="file://PC-3926/C:/CI_hew/UnitTest_Workspace/UnitTest/sbrk.c" />
+         <Loc auth="bji" hash="-268181581" locRef="7" projId="UnitTest" projPath="/UnitTest" project="UnitTest" resProjPath="sbrk.h" totLns="12" uri="file://PC-3926/C:/CI_hew/UnitTest_Workspace/UnitTest/sbrk.h" />
+         <Loc auth="bji" hash="-1546982530" locRef="8" projId="UnitTest" projPath="/UnitTest" project="UnitTest" resProjPath="lowsrc.h" totLns="12" uri="file://PC-3926/C:/CI_hew/UnitTest_Workspace/UnitTest/lowsrc.h" />
+         <Loc auth="bji" hash="1065508020" locRef="9" projId="UnitTest" projPath="/UnitTest" project="UnitTest" resProjPath="stacksct.h" totLns="11" uri="file://PC-3926/C:/CI_hew/UnitTest_Workspace/UnitTest/stacksct.h" />
+         <Loc auth="bji" hash="1314440717" locRef="10" projId="UnitTest" projPath="/UnitTest" project="UnitTest" resProjPath="typedefine.h" totLns="23" uri="file://PC-3926/C:/CI_hew/UnitTest_Workspace/UnitTest/typedefine.h" />
+      </Locations>
+   </Scope>
+   
+  <SetupProblems />
+
+   <CodingStandards ownerId="com.parasoft.xtest.checkers.api.standards" time="0:00:12">
+      <Projects>
+         <Project bdCheckedFiles="0" bdTotalFiles="0" checkedFiles="10" checkedLns="609" id="UnitTest" name="UnitTest" qfixErrs="0" suppErrs="0" totErrs="9" totFiles="10" totLns="609" />
+      </Projects>
+      
+      <History>
+         <Graph id="lns">
+            <Categories>
+               <Category color="blue" name="行数合計" pos="0" />
+               <Category color="green" name="チェック済み行" pos="1" />
+               <Category authPos="0" color="red" name="タスク" pos="2" />
+            </Categories>
+            <Total secSer="1" title="" xTitle="日付" yTitle="行" yTitle2="タスク">
+               <X>06-24-21,</X>
+               <Y>609,609,9,</Y>
+               <Delta>609,609,9,</Delta>
+            </Total>
+            <Authors title="" xTitle="日付" yTitle="タスク合計">
+               <Author name="bji">
+                  <X>06-24-21,</X>
+                  <Y>9,</Y>
+                  <Delta>9,</Delta>
+               </Author>
+            </Authors>
+         </Graph>
+      </History>
+   
+      
+      <Rules>
+         <CategoriesList>
+            <Category authTot="0;" authUrg="0;" desc="フロー解析" name="BD" rules="117" total="0">
+               <Category authTot="0;" authUrg="0;" desc="誤った API の使用" name="BD-API" rules="6" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="バグの可能性" name="BD-PB" rules="64" total="0" />
+               <Category authTot="9;" authUrg="9;" desc="リソース" name="BD-RES" rules="8" total="9" />
+               <Category authTot="0;" authUrg="0;" desc="セキュリティ" name="BD-SECURITY" rules="17" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="コンテナー" name="BD-CO" rules="5" total="0" />
+               <Category authTot="0;" authUrg="0;" desc="スレッドと同期化" name="BD-TRS" rules="15" total="0" />
+            </Category>
+         </CategoriesList>
+         <RulesList>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-API" desc="ライブラリ関数に誤った値を渡してはならない" id="BD-API-BADPARAM" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-API" desc="負の値ではない引数を期待する関数に負の値を渡してはならない" id="BD-API-NEGPARAM" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-API" desc="負の値ではない引数として渡した後に負の値のチェックを行わない" id="BD-API-REVNEGPARAM" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-CO" desc="範囲外のイテレーターにアクセスしない" id="BD-CO-ITOUT" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-CO" desc="有効な参照、ポインター、イテレーターを使用して basic_string の要素を参照する" id="BD-CO-STRMOD" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-CO" desc="std アルゴリズムに空のコンテナー イテレーターを宛先として渡さない" id="BD-CO-EMPCON" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-CO" desc="コンテナーを反復処理中に変更しない" id="BD-CO-ITMOD" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="例外を常にキャッチする" id="BD-PB-EXCEPT" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="初期化の前に使用しない" id="BD-PB-NOTINIT" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="null ポインターの間接参照を避ける" id="BD-PB-NP" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="不正な書式指定子によるバッファー オーバーフローを避ける" id="BD-PB-OVERFFMT" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="ゼロで終わっていない文字列の読み込みによるオーバーフローを避ける" id="BD-PB-OVERFNZT" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="バッファー読み込み時のオーバーフローを避ける" id="BD-PB-OVERFRD" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="バッファー書き込み時のオーバーフローを避ける" id="BD-PB-OVERFWR" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="メソッド パラメーターの上書きを避ける" id="BD-PB-POVR" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="解放済みのラップされたオブジェクトを指してはならない" id="BD-PB-WRAPESC" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="ゼロによる除算を避ける" id="BD-PB-ZERO" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="配列の境界を超えてアクセスしてはならない" id="BD-PB-ARRAY" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="オブジェクトの配列の要素を指すポインターを単一のオブジェクト型のスマート ポインターに渡してはならない" id="BD-PB-ARRPTR" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="誤ったシフト演算を避ける" id="BD-PB-BADSHIFT" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="システム間でデータを送信する場合は正しいバイト順序を使用する" id="BD-PB-BYTEORD" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="常に同じ値に評価される条件式を避ける" id="BD-PB-CC" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="非 void 関数の戻り値をチェックする" id="BD-PB-CHECKRET" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="常に非 void 関数の戻り値をチェックする" id="BD-PB-CHECKRETGEN" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="間接参照の後に null チェックしない" id="BD-PB-DEREF" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="realloc() を呼び出してオブジェクトのアラインメントを変更してはならない" id="BD-PB-DNMPTR" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="マクロの EOF と標準ライブラリ関数から返された未変更の戻り値を比較するべきである" id="BD-PB-EOFCOMP" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="errno 値を適切に使用する" id="BD-PB-ERRNO" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="終了ハンドラーを適切に定義する" id="BD-PB-EXITHAN" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="fgets() または fgetws() が失敗した場合、文字列をリセットする" id="BD-PB-FGETS" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="fgetpos() から返された値だけを fsetpos() に使用する" id="BD-PB-FSETPOS" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="環境ポインターを無効化する可能性がある演算の後で環境ポインターに依存しない" id="BD-PB-INVENV" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="特定の標準ライブラリ関数から返されたポインターは、そのあとの同じ関数または関連する関数の呼び出しで使用してはならない" id="BD-PB-INVRET" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="標準ライブラリ関数 memcmp を null 終端文字の比較に使用してはならない" id="BD-PB-MCCSTR" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="new ハンドラーを適切に定義する" id="BD-PB-NEWHAN" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="例外をスローしないよう宣言された関数から例外をスローしてはならない" id="BD-PB-NOEXCEPT" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="return するべきでない関数から return してはならない" id="BD-PB-NORETURN" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="範囲外の配列およびポインターへのアクセスを避ける" id="BD-PB-OVERFARRAY" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="オーバーラップするオブジェクトにオブジェクトを代入またはコピーしてはならない" id="BD-PB-OVERLAP" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="配列をポリモーフィックに処理しない" id="BD-PB-POLARR" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="関連のない 2 つのポインターを比較してはならない" id="BD-PB-PTRCMP" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="同じ配列の要素を指していない 2 つのポインターを減算しない" id="BD-PB-PTRSUB" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="すでに所有されているポインター値を関連がないスマート ポインターに格納しない" id="BD-PB-PTRVALUE" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="自動変数へのポインターを引数として putenv() を呼び出さない" id="BD-PB-PUTENV" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="計算例外シグナル ハンドラーから return しない" id="BD-PB-SIGRETURN" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="間にフラッシュまたは位置付けの処理を呼び出さずに交互にストリームの入力と出力を行ってはならない" id="BD-PB-STREAMINOUT" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="std::forward に渡した引数を後で使用してはならない" id="BD-PB-SUBSEQFRWD" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="移動元オブジェクトの値に依存しない" id="BD-PB-SUBSEQMOVE" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="switch 文には到達できないブランチがあってはならない" id="BD-PB-SWITCH" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="terminate ハンドラーを適切に定義する" id="BD-PB-TERMHAN" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="unexpected ハンドラーを適切に定義する" id="BD-PB-UNEXPHAN" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="コンストラクターからクラスの仮想関数を呼び出さない" id="BD-PB-VCTOR" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="デストラクターからクラスの仮想関数を呼び出さない" id="BD-PB-VDTOR" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="可変長配列のサイズが有効範囲内であることを確認する" id="BD-PB-VLASIZE" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="1 つのファイルを別のストリームで同時に読み取りアクセス用と書き込みアクセス用に開いてはならない" id="BD-PB-WRRDSTR" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="読み取り専用として開かれたストリームへの書き込みを避ける" id="BD-PB-WRROS" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="整数のオーバーフローを避ける" id="BD-PB-INTOVERF" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="文字列の終端がゼロであることを確認する" id="BD-PB-NZTS" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="作成された std::exception オブジェクトを必ずスローする" id="BD-PB-STDEXC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="疑わしい値でストリームのフラグを設定している" id="BD-PB-STREAMFLAGS" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="ストリーム フォーマットの復元" id="BD-PB-STREAMFMT" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="未使用の値を避ける" id="BD-PB-VOVR" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="コンテナーのインデックスが有効範囲内であることを保証する" id="BD-PB-VALRANGE" sev="4" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-RES" desc="動的に割り当てられたリソースを適切に割り当て解除する" id="BD-RES-BADDEALLOC" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-RES" desc="解放関数が確実にリソースを解放することを保証する" id="BD-RES-BADFREEF" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="2;" authUrg="2;" cat="BD-RES" desc="解放されたリソースを使用してはならない" id="BD-RES-FREE" sev="1" total="2" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-RES" desc="指定された型のオブジェクトを格納するのに十分なメモリを割り当てる" id="BD-RES-INSUFMEM" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="4;" authUrg="4;" cat="BD-RES" desc="無効なポインタを使用してリソースを解放してはならない" id="BD-RES-INVFREE" sev="1" total="4" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="3;" authUrg="3;" cat="BD-RES" desc="リソースが解放されていることを確認する" id="BD-RES-LEAKS" sev="1" total="3" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-RES" desc="shared_ptr の循環参照を避ける" id="BD-RES-CSP" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-RES" desc="定義された上限を超える変数をスタックに配置しない" id="BD-RES-STACKLIM" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-SECURITY" desc="汚染されたデータを配列添え字として使用しない" id="BD-SECURITY-ARRAY" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-SECURITY" desc="汚染されたデータによるバッファー オーバーフローを避ける" id="BD-SECURITY-BUFWRITE" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-SECURITY" desc="汚染されたデータによる整数オーバーフロー/アンダーフローを防ぐ" id="BD-SECURITY-INTOVERF" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-SECURITY" desc="不正な書式制限の定義によるバッファー オーバーフローを避ける" id="BD-SECURITY-OVERFFMT" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-SECURITY" desc="汚染されたデータによるバッファー読み込み時のオーバーフローを避ける" id="BD-SECURITY-OVERFRD" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-SECURITY" desc="汚染されたデータによるバッファー書き込み時のオーバーフローを避ける" id="BD-SECURITY-OVERFWR" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-SECURITY" desc="コマンド インジェクションから防御する" id="BD-SECURITY-TDCMD" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-SECURITY" desc="汚染されたデータを出力コンソールに出力してはならない" id="BD-SECURITY-TDCONSOLE" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-SECURITY" desc="環境変数インジェクションから防御する" id="BD-SECURITY-TDENV" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-SECURITY" desc="ファイル名インジェクションから防御する" id="BD-SECURITY-TDFNAMES" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-SECURITY" desc="書式文字列からサニタイズされていないユーザー入力を除外する" id="BD-SECURITY-TDINPUT" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-SECURITY" desc="SQL インジェクションから防御する" id="BD-SECURITY-TDSQL" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-SECURITY" desc="ログ ファイルに書き込む関数に機密データを渡さない" id="BD-SECURITY-SENSLOG" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-SECURITY" desc="メモリ割り当サイズの決定に使用する前に、汚染されている可能性があるデータを検証する" id="BD-SECURITY-TDALLOC" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-SECURITY" desc="libxerces-c で XML 外部エンティティの解決 (XXE) を無効化する" id="BD-SECURITY-XXEXRC" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-TRS" desc="変数は単一のクリティカル セクションのコンテキストで使用するべきである" id="BD-TRS-DIFCS" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-TRS" desc="二重ロックを避ける" id="BD-TRS-DLOCK" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-TRS" desc="fork およびファイル記述子を使用する際の競合状態を避ける" id="BD-TRS-FORKFILE" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-TRS" desc="解放されていないロックを放棄してはならない" id="BD-TRS-LOCK" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-TRS" desc="異なる順序でロックを獲得しない" id="BD-TRS-ORDER" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-TRS" desc="シンボリック リンクの存在を確認する際の競合状態を避ける" id="BD-TRS-SYMLINK" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-TRS" desc="ロックを保持している間にブロッキング関数を使用してはならない" id="BD-TRS-TSHL" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-TRS" desc="複数の POSIX スレッドで共有されるオブジェクトは、適切な記憶域期間を持つよう宣言する" id="BD-TRS-ARG" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-TRS" desc="ファイル アクセス時の競合状態を避ける" id="BD-TRS-FRC" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-TRS" desc="すでに結合または切り離しされたスレッドを結合または切り離ししない" id="BD-TRS-JOINDETACH" sev="2" total="0" />
+         </RulesList>
+         <SeverityList>
+            <Severity authTot="9;" authUrg="9;" id="1" total="9" />
+         </SeverityList>
+      </Rules>
+      
+  <Supps />
+
+      
+  <StdViols>
+    <FlowViol msg="ファイルがクローズされていない: freopen(...)" ln="207" locFile="/UnitTest/lowsrc.c" ruleSAFMsg="オープンされたファイルが失われたポイント" FirstElSrcRngEndPos="0" auth="bji" FirstElSrcRngEndLn="208" rule="BD-RES-LEAKS" FirstElSrcRngStartPos="0" lnHash="-810658304" ruleSCSCMsg="ファイルがオープンされたポイント" FirstElSrcRngFile="/UnitTest/lowsrc.c" rule.header="リソースが解放されていることを確認する" FirstElSrcRngStartln="207" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-1764980046" lang="cpp" locEndPos="0" urgent="true" locEndLn="208" goals="1," locStartln="207" sev="1" locRef="4" tool="c++test" lineHash="-810658304" locType="sr" hash="1950404136" causeLocRef="4">
+      <Props>
+        <Prop key="Tracked variables" val="オープンされたファイル" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-342367157" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="196" ln="195" srcRngEndPos="0" srcRngStartln="195" srcRngStartPos="0" desc="FILE *fp;" ElType="." rngLn="195" />
+        <ElDesc lineHash="-914623591" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="198" ln="197" srcRngEndPos="0" srcRngStartln="197" srcRngStartPos="0" desc="for(fp = _iob; fp &lt; _iob+_nfiles; fp++){" ElType="." rngLn="197">
+          <Anns>
+            <Ann msg="ループ条件評価:(fp &lt; _iob + 20) (true)" kind="condEval" />
+            <Ann msg="ループに入る" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1466017552" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="199" ln="198" srcRngEndPos="0" srcRngStartln="198" srcRngStartPos="0" desc="fp->_bufptr = NULL;" ElType="." rngLn="198" />
+        <ElDesc lineHash="-3545514" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="200" ln="199" srcRngEndPos="0" srcRngStartln="199" srcRngStartPos="0" desc="fp->_bufcnt = 0L;" ElType="." rngLn="199" />
+        <ElDesc lineHash="1373754882" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="201" ln="200" srcRngEndPos="0" srcRngStartln="200" srcRngStartPos="0" desc="fp->_buflen = 0L;" ElType="." rngLn="200" />
+        <ElDesc lineHash="-241995407" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="202" ln="201" srcRngEndPos="0" srcRngStartln="201" srcRngStartPos="0" desc="fp->_bufbase = NULL;" ElType="." rngLn="201" />
+        <ElDesc lineHash="336036115" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="203" ln="202" srcRngEndPos="0" srcRngStartln="202" srcRngStartPos="0" desc="fp->_ioflag1 = 0;" ElType="." rngLn="202" />
+        <ElDesc lineHash="364665266" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="204" ln="203" srcRngEndPos="0" srcRngStartln="203" srcRngStartPos="0" desc="fp->_ioflag2 = 0;" ElType="." rngLn="203" />
+        <ElDesc lineHash="-675539994" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="205" ln="204" srcRngEndPos="0" srcRngStartln="204" srcRngStartPos="0" desc="fp->_iofd = 0;" ElType="." rngLn="204" />
+        <ElDesc lineHash="-914623591" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="198" ln="197" srcRngEndPos="0" srcRngStartln="197" srcRngStartPos="0" desc="for(fp = _iob; fp &lt; _iob+_nfiles; fp++){" ElType="." rngLn="197">
+          <Anns>
+            <Ann msg="ループ条件評価: (fp &lt; _iob + 20) (false を仮定)" kind="condEval" />
+            <Ann msg="ループに入っていない" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-810658304" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="208" ln="207" srcRngEndPos="0" srcRngStartln="207" srcRngStartPos="0" desc="freopen(...)" ElType=".C" rngLn="207">
+          <Props>
+            <Prop key="Tracked variables" val="freopen(...)" />
+          </Props>
+          <Anns>
+            <Ann msg="ファイルがオープンされたポイント" kind="cause" />
+            <Ann msg="オープンされたファイル: freopen(...)" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-810658304" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="208" ln="207" srcRngEndPos="0" srcRngStartln="207" srcRngStartPos="0" desc="if(freopen(&quot;stdin&quot;, &quot;r&quot;, stdin)==NULL){" ElType=".P" rngLn="207">
+          <Props>
+            <Prop key="Tracked variables" val="freopen(...)" />
+          </Props>
+          <Anns>
+            <Ann msg="オープンされたファイル: freopen(...)" kind="var" />
+            <Ann msg="オープンされたファイルが失われたポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="解放されたリソース &quot;_iob&quot; の使用" ln="208" locFile="/UnitTest/lowsrc.c" ruleSAFMsg="使用ポイント" FirstElSrcRngEndPos="0" auth="bji" FirstElSrcRngEndLn="208" rule="BD-RES-FREE" FirstElSrcRngStartPos="0" lnHash="-2105396695" ruleSCSCMsg="リソースが解放されたポイント" FirstElSrcRngFile="/UnitTest/lowsrc.c" rule.header="解放されたリソースを使用してはならない" FirstElSrcRngStartln="207" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-1471276754" lang="cpp" locEndPos="0" urgent="true" locEndLn="209" goals="1," locStartln="208" sev="1" locRef="4" tool="c++test" lineHash="-2105396695" locType="sr" hash="1950404136" causeLocRef="4">
+      <Props>
+        <Prop key="Tracked variables" val="解放されたリソース" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-342367157" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="196" ln="195" srcRngEndPos="0" srcRngStartln="195" srcRngStartPos="0" desc="FILE *fp;" ElType="." rngLn="195" />
+        <ElDesc lineHash="-914623591" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="198" ln="197" srcRngEndPos="0" srcRngStartln="197" srcRngStartPos="0" desc="for(fp = _iob; fp &lt; _iob+_nfiles; fp++){" ElType="." rngLn="197">
+          <Anns>
+            <Ann msg="ループ条件評価:(fp &lt; _iob + 20) (true)" kind="condEval" />
+            <Ann msg="ループに入る" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1466017552" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="199" ln="198" srcRngEndPos="0" srcRngStartln="198" srcRngStartPos="0" desc="fp->_bufptr = NULL;" ElType="." rngLn="198" />
+        <ElDesc lineHash="-3545514" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="200" ln="199" srcRngEndPos="0" srcRngStartln="199" srcRngStartPos="0" desc="fp->_bufcnt = 0L;" ElType="." rngLn="199" />
+        <ElDesc lineHash="1373754882" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="201" ln="200" srcRngEndPos="0" srcRngStartln="200" srcRngStartPos="0" desc="fp->_buflen = 0L;" ElType="." rngLn="200" />
+        <ElDesc lineHash="-241995407" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="202" ln="201" srcRngEndPos="0" srcRngStartln="201" srcRngStartPos="0" desc="fp->_bufbase = NULL;" ElType="." rngLn="201" />
+        <ElDesc lineHash="336036115" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="203" ln="202" srcRngEndPos="0" srcRngStartln="202" srcRngStartPos="0" desc="fp->_ioflag1 = 0;" ElType="." rngLn="202" />
+        <ElDesc lineHash="364665266" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="204" ln="203" srcRngEndPos="0" srcRngStartln="203" srcRngStartPos="0" desc="fp->_ioflag2 = 0;" ElType="." rngLn="203" />
+        <ElDesc lineHash="-675539994" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="205" ln="204" srcRngEndPos="0" srcRngStartln="204" srcRngStartPos="0" desc="fp->_iofd = 0;" ElType="." rngLn="204" />
+        <ElDesc lineHash="-914623591" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="198" ln="197" srcRngEndPos="0" srcRngStartln="197" srcRngStartPos="0" desc="for(fp = _iob; fp &lt; _iob+_nfiles; fp++){" ElType="." rngLn="197">
+          <Anns>
+            <Ann msg="ループ条件評価: (fp &lt; _iob + 20) (false を仮定)" kind="condEval" />
+            <Ann msg="ループに入っていない" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-810658304" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="208" ln="207" srcRngEndPos="0" srcRngStartln="207" srcRngStartPos="0" desc="freopen(...)" ElType=".C" rngLn="207">
+          <Props>
+            <Prop key="Tracked variables" val="_iob" />
+          </Props>
+          <Anns>
+            <Ann msg="リソースが解放されたポイント" kind="cause" />
+            <Ann msg="解放されたリソース: _iob" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-810658304" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="208" ln="207" srcRngEndPos="0" srcRngStartln="207" srcRngStartPos="0" desc="if(freopen(&quot;stdin&quot;, &quot;r&quot;, stdin)==NULL){" ElType="." rngLn="207">
+          <Anns>
+            <Ann msg="条件評価: (freopen(...) == 0) (true を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-2105396695" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="209" ln="208" srcRngEndPos="0" srcRngStartln="208" srcRngStartPos="0" desc="stdin->_ioflag1 = 0xff;" ElType=".P" rngLn="208">
+          <Props>
+            <Prop key="Tracked variables" val="_iob" />
+          </Props>
+          <Anns>
+            <Ann msg="解放されたリソース: _iob" kind="var" />
+            <Ann msg="使用ポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="解放されたリソース &quot;_iob&quot; の使用" ln="210" locFile="/UnitTest/lowsrc.c" ruleSAFMsg="使用ポイント" FirstElSrcRngEndPos="0" auth="bji" FirstElSrcRngEndLn="208" rule="BD-RES-FREE" FirstElSrcRngStartPos="0" lnHash="1188912718" ruleSCSCMsg="リソースが解放されたポイント" FirstElSrcRngFile="/UnitTest/lowsrc.c" rule.header="解放されたリソースを使用してはならない" FirstElSrcRngStartln="207" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-1469327427" lang="cpp" locEndPos="0" urgent="true" locEndLn="211" goals="1," locStartln="210" sev="1" locRef="4" tool="c++test" lineHash="1188912718" locType="sr" hash="1950404136" causeLocRef="4">
+      <Props>
+        <Prop key="Tracked variables" val="解放されたリソース" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-342367157" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="196" ln="195" srcRngEndPos="0" srcRngStartln="195" srcRngStartPos="0" desc="FILE *fp;" ElType="." rngLn="195" />
+        <ElDesc lineHash="-914623591" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="198" ln="197" srcRngEndPos="0" srcRngStartln="197" srcRngStartPos="0" desc="for(fp = _iob; fp &lt; _iob+_nfiles; fp++){" ElType="." rngLn="197">
+          <Anns>
+            <Ann msg="ループ条件評価:(fp &lt; _iob + 20) (true)" kind="condEval" />
+            <Ann msg="ループに入る" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1466017552" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="199" ln="198" srcRngEndPos="0" srcRngStartln="198" srcRngStartPos="0" desc="fp->_bufptr = NULL;" ElType="." rngLn="198" />
+        <ElDesc lineHash="-3545514" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="200" ln="199" srcRngEndPos="0" srcRngStartln="199" srcRngStartPos="0" desc="fp->_bufcnt = 0L;" ElType="." rngLn="199" />
+        <ElDesc lineHash="1373754882" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="201" ln="200" srcRngEndPos="0" srcRngStartln="200" srcRngStartPos="0" desc="fp->_buflen = 0L;" ElType="." rngLn="200" />
+        <ElDesc lineHash="-241995407" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="202" ln="201" srcRngEndPos="0" srcRngStartln="201" srcRngStartPos="0" desc="fp->_bufbase = NULL;" ElType="." rngLn="201" />
+        <ElDesc lineHash="336036115" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="203" ln="202" srcRngEndPos="0" srcRngStartln="202" srcRngStartPos="0" desc="fp->_ioflag1 = 0;" ElType="." rngLn="202" />
+        <ElDesc lineHash="364665266" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="204" ln="203" srcRngEndPos="0" srcRngStartln="203" srcRngStartPos="0" desc="fp->_ioflag2 = 0;" ElType="." rngLn="203" />
+        <ElDesc lineHash="-675539994" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="205" ln="204" srcRngEndPos="0" srcRngStartln="204" srcRngStartPos="0" desc="fp->_iofd = 0;" ElType="." rngLn="204" />
+        <ElDesc lineHash="-914623591" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="198" ln="197" srcRngEndPos="0" srcRngStartln="197" srcRngStartPos="0" desc="for(fp = _iob; fp &lt; _iob+_nfiles; fp++){" ElType="." rngLn="197">
+          <Anns>
+            <Ann msg="ループ条件評価: (fp &lt; _iob + 20) (false を仮定)" kind="condEval" />
+            <Ann msg="ループに入っていない" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-810658304" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="208" ln="207" srcRngEndPos="0" srcRngStartln="207" srcRngStartPos="0" desc="freopen(...)" ElType=".C" rngLn="207">
+          <Props>
+            <Prop key="Tracked variables" val="_iob" />
+          </Props>
+          <Anns>
+            <Ann msg="リソースが解放されたポイント" kind="cause" />
+            <Ann msg="解放されたリソース: _iob" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-810658304" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="208" ln="207" srcRngEndPos="0" srcRngStartln="207" srcRngStartPos="0" desc="if(freopen(&quot;stdin&quot;, &quot;r&quot;, stdin)==NULL){" ElType="." rngLn="207">
+          <Anns>
+            <Ann msg="条件評価: (freopen(...) == 0) (false を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1188912718" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="211" ln="210" srcRngEndPos="0" srcRngStartln="210" srcRngStartPos="0" desc="stdin->_ioflag1 |= _IOUNBUF;" ElType=".P" rngLn="210">
+          <Props>
+            <Prop key="Tracked variables" val="_iob" />
+          </Props>
+          <Anns>
+            <Ann msg="解放されたリソース: _iob" kind="var" />
+            <Ann msg="使用ポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="無効なリソースの解放: &quot;&amp;&quot;stdout\000&quot;&quot; はメモリ中のリソースの先頭を指していない" ln="212" locFile="/UnitTest/lowsrc.c" ruleSAFMsg="解放されたポイント" FirstElSrcRngEndPos="0" auth="bji" FirstElSrcRngEndLn="198" rule="BD-RES-INVFREE" FirstElSrcRngStartPos="0" lnHash="-1839514801" ruleSCSCMsg="リソースが定義されたポイント" FirstElSrcRngFile="/UnitTest/lowsrc.c" rule.header="無効なポインタを使用してリソースを解放してはならない" FirstElSrcRngStartln="197" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="925614250" lang="cpp" locEndPos="0" urgent="true" locEndLn="213" goals="1," locStartln="212" sev="1" locRef="4" tool="c++test" lineHash="-1839514801" locType="sr" hash="1950404136" causeLocRef="4">
+      <Props>
+        <Prop key="Tracked variables" val="無効なリソース" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-342367157" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="196" ln="195" srcRngEndPos="0" srcRngStartln="195" srcRngStartPos="0" desc="FILE *fp;" ElType="." rngLn="195" />
+        <ElDesc lineHash="-914623591" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="198" ln="197" srcRngEndPos="0" srcRngStartln="197" srcRngStartPos="0" desc="for(fp = _iob; fp &lt; _iob+_nfiles; fp++){" ElType=".C" rngLn="197">
+          <Props>
+            <Prop key="Tracked variables" val="_iob" />
+          </Props>
+          <Anns>
+            <Ann msg="リソースが定義されたポイント" kind="cause" />
+            <Ann msg="無効なリソース: _iob" kind="var" />
+            <Ann msg="ループ条件評価:(fp &lt; _iob + 20) (true)" kind="condEval" />
+            <Ann msg="ループに入る" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1466017552" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="199" ln="198" srcRngEndPos="0" srcRngStartln="198" srcRngStartPos="0" desc="fp->_bufptr = NULL;" ElType="." rngLn="198" />
+        <ElDesc lineHash="-3545514" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="200" ln="199" srcRngEndPos="0" srcRngStartln="199" srcRngStartPos="0" desc="fp->_bufcnt = 0L;" ElType="." rngLn="199" />
+        <ElDesc lineHash="1373754882" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="201" ln="200" srcRngEndPos="0" srcRngStartln="200" srcRngStartPos="0" desc="fp->_buflen = 0L;" ElType="." rngLn="200" />
+        <ElDesc lineHash="-241995407" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="202" ln="201" srcRngEndPos="0" srcRngStartln="201" srcRngStartPos="0" desc="fp->_bufbase = NULL;" ElType="." rngLn="201" />
+        <ElDesc lineHash="336036115" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="203" ln="202" srcRngEndPos="0" srcRngStartln="202" srcRngStartPos="0" desc="fp->_ioflag1 = 0;" ElType="." rngLn="202" />
+        <ElDesc lineHash="364665266" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="204" ln="203" srcRngEndPos="0" srcRngStartln="203" srcRngStartPos="0" desc="fp->_ioflag2 = 0;" ElType="." rngLn="203" />
+        <ElDesc lineHash="-675539994" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="205" ln="204" srcRngEndPos="0" srcRngStartln="204" srcRngStartPos="0" desc="fp->_iofd = 0;" ElType="." rngLn="204" />
+        <ElDesc lineHash="-914623591" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="198" ln="197" srcRngEndPos="0" srcRngStartln="197" srcRngStartPos="0" desc="for(fp = _iob; fp &lt; _iob+_nfiles; fp++){" ElType="." rngLn="197">
+          <Anns>
+            <Ann msg="ループ条件評価: (fp &lt; _iob + 20) (false を仮定)" kind="condEval" />
+            <Ann msg="ループに入っていない" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-810658304" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="208" ln="207" srcRngEndPos="0" srcRngStartln="207" srcRngStartPos="0" desc="if(freopen(&quot;stdin&quot;, &quot;r&quot;, stdin)==NULL){" ElType="." rngLn="207">
+          <Anns>
+            <Ann msg="条件評価: (freopen(...) == 0) (false を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1188912718" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="211" ln="210" srcRngEndPos="0" srcRngStartln="210" srcRngStartPos="0" desc="stdin->_ioflag1 |= _IOUNBUF;" ElType="." rngLn="210" />
+        <ElDesc lineHash="-1839514801" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="213" ln="212" srcRngEndPos="0" srcRngStartln="212" srcRngStartPos="0" desc="if(freopen(&quot;stdout&quot;, &quot;w&quot;, stdout)==NULL){" ElType=".P" rngLn="212">
+          <Props>
+            <Prop key="Tracked variables" val="_iob" />
+          </Props>
+          <Anns>
+            <Ann msg="無効なリソース: _iob" kind="var" />
+            <Ann msg="解放されたポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="ファイルがクローズされていない: freopen(...)" ln="212" locFile="/UnitTest/lowsrc.c" ruleSAFMsg="オープンされたファイルが失われたポイント" FirstElSrcRngEndPos="0" auth="bji" FirstElSrcRngEndLn="213" rule="BD-RES-LEAKS" FirstElSrcRngStartPos="0" lnHash="-1839514801" ruleSCSCMsg="ファイルがオープンされたポイント" FirstElSrcRngFile="/UnitTest/lowsrc.c" rule.header="リソースが解放されていることを確認する" FirstElSrcRngStartln="212" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-1274402224" lang="cpp" locEndPos="0" urgent="true" locEndLn="213" goals="1," locStartln="212" sev="1" locRef="4" tool="c++test" lineHash="-1839514801" locType="sr" hash="1950404136" causeLocRef="4">
+      <Props>
+        <Prop key="Tracked variables" val="オープンされたファイル" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-342367157" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="196" ln="195" srcRngEndPos="0" srcRngStartln="195" srcRngStartPos="0" desc="FILE *fp;" ElType="." rngLn="195" />
+        <ElDesc lineHash="-914623591" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="198" ln="197" srcRngEndPos="0" srcRngStartln="197" srcRngStartPos="0" desc="for(fp = _iob; fp &lt; _iob+_nfiles; fp++){" ElType="." rngLn="197">
+          <Anns>
+            <Ann msg="ループ条件評価:(fp &lt; _iob + 20) (true)" kind="condEval" />
+            <Ann msg="ループに入る" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1466017552" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="199" ln="198" srcRngEndPos="0" srcRngStartln="198" srcRngStartPos="0" desc="fp->_bufptr = NULL;" ElType="." rngLn="198" />
+        <ElDesc lineHash="-3545514" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="200" ln="199" srcRngEndPos="0" srcRngStartln="199" srcRngStartPos="0" desc="fp->_bufcnt = 0L;" ElType="." rngLn="199" />
+        <ElDesc lineHash="1373754882" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="201" ln="200" srcRngEndPos="0" srcRngStartln="200" srcRngStartPos="0" desc="fp->_buflen = 0L;" ElType="." rngLn="200" />
+        <ElDesc lineHash="-241995407" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="202" ln="201" srcRngEndPos="0" srcRngStartln="201" srcRngStartPos="0" desc="fp->_bufbase = NULL;" ElType="." rngLn="201" />
+        <ElDesc lineHash="336036115" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="203" ln="202" srcRngEndPos="0" srcRngStartln="202" srcRngStartPos="0" desc="fp->_ioflag1 = 0;" ElType="." rngLn="202" />
+        <ElDesc lineHash="364665266" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="204" ln="203" srcRngEndPos="0" srcRngStartln="203" srcRngStartPos="0" desc="fp->_ioflag2 = 0;" ElType="." rngLn="203" />
+        <ElDesc lineHash="-675539994" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="205" ln="204" srcRngEndPos="0" srcRngStartln="204" srcRngStartPos="0" desc="fp->_iofd = 0;" ElType="." rngLn="204" />
+        <ElDesc lineHash="-914623591" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="198" ln="197" srcRngEndPos="0" srcRngStartln="197" srcRngStartPos="0" desc="for(fp = _iob; fp &lt; _iob+_nfiles; fp++){" ElType="." rngLn="197">
+          <Anns>
+            <Ann msg="ループ条件評価: (fp &lt; _iob + 20) (false を仮定)" kind="condEval" />
+            <Ann msg="ループに入っていない" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-810658304" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="208" ln="207" srcRngEndPos="0" srcRngStartln="207" srcRngStartPos="0" desc="if(freopen(&quot;stdin&quot;, &quot;r&quot;, stdin)==NULL){" ElType="." rngLn="207">
+          <Anns>
+            <Ann msg="条件評価: (freopen(...) == 0) (false を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1188912718" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="211" ln="210" srcRngEndPos="0" srcRngStartln="210" srcRngStartPos="0" desc="stdin->_ioflag1 |= _IOUNBUF;" ElType="." rngLn="210" />
+        <ElDesc lineHash="-1839514801" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="213" ln="212" srcRngEndPos="0" srcRngStartln="212" srcRngStartPos="0" desc="freopen(...)" ElType=".C" rngLn="212">
+          <Props>
+            <Prop key="Tracked variables" val="freopen(...)" />
+          </Props>
+          <Anns>
+            <Ann msg="ファイルがオープンされたポイント" kind="cause" />
+            <Ann msg="オープンされたファイル: freopen(...)" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1839514801" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="213" ln="212" srcRngEndPos="0" srcRngStartln="212" srcRngStartPos="0" desc="if(freopen(&quot;stdout&quot;, &quot;w&quot;, stdout)==NULL){" ElType=".P" rngLn="212">
+          <Props>
+            <Prop key="Tracked variables" val="freopen(...)" />
+          </Props>
+          <Anns>
+            <Ann msg="オープンされたファイル: freopen(...)" kind="var" />
+            <Ann msg="オープンされたファイルが失われたポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="無効なリソースの解放: &quot;&amp;&quot;stderr\000&quot;&quot; はメモリ中のリソースの先頭を指していない" ln="217" locFile="/UnitTest/lowsrc.c" ruleSAFMsg="解放されたポイント" FirstElSrcRngEndPos="0" auth="bji" FirstElSrcRngEndLn="198" rule="BD-RES-INVFREE" FirstElSrcRngStartPos="0" lnHash="119047969" ruleSCSCMsg="リソースが定義されたポイント" FirstElSrcRngFile="/UnitTest/lowsrc.c" rule.header="無効なポインタを使用してリソースを解放してはならない" FirstElSrcRngStartln="197" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="854753499" lang="cpp" locEndPos="0" urgent="true" locEndLn="218" goals="1," locStartln="217" sev="1" locRef="4" tool="c++test" lineHash="119047969" locType="sr" hash="1950404136" causeLocRef="4">
+      <Props>
+        <Prop key="Tracked variables" val="無効なリソース" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-342367157" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="196" ln="195" srcRngEndPos="0" srcRngStartln="195" srcRngStartPos="0" desc="FILE *fp;" ElType="." rngLn="195" />
+        <ElDesc lineHash="-914623591" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="198" ln="197" srcRngEndPos="0" srcRngStartln="197" srcRngStartPos="0" desc="for(fp = _iob; fp &lt; _iob+_nfiles; fp++){" ElType=".C" rngLn="197">
+          <Props>
+            <Prop key="Tracked variables" val="_iob" />
+          </Props>
+          <Anns>
+            <Ann msg="リソースが定義されたポイント" kind="cause" />
+            <Ann msg="無効なリソース: _iob" kind="var" />
+            <Ann msg="ループ条件評価:(fp &lt; _iob + 20) (true)" kind="condEval" />
+            <Ann msg="ループに入る" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1466017552" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="199" ln="198" srcRngEndPos="0" srcRngStartln="198" srcRngStartPos="0" desc="fp->_bufptr = NULL;" ElType="." rngLn="198" />
+        <ElDesc lineHash="-3545514" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="200" ln="199" srcRngEndPos="0" srcRngStartln="199" srcRngStartPos="0" desc="fp->_bufcnt = 0L;" ElType="." rngLn="199" />
+        <ElDesc lineHash="1373754882" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="201" ln="200" srcRngEndPos="0" srcRngStartln="200" srcRngStartPos="0" desc="fp->_buflen = 0L;" ElType="." rngLn="200" />
+        <ElDesc lineHash="-241995407" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="202" ln="201" srcRngEndPos="0" srcRngStartln="201" srcRngStartPos="0" desc="fp->_bufbase = NULL;" ElType="." rngLn="201" />
+        <ElDesc lineHash="336036115" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="203" ln="202" srcRngEndPos="0" srcRngStartln="202" srcRngStartPos="0" desc="fp->_ioflag1 = 0;" ElType="." rngLn="202" />
+        <ElDesc lineHash="364665266" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="204" ln="203" srcRngEndPos="0" srcRngStartln="203" srcRngStartPos="0" desc="fp->_ioflag2 = 0;" ElType="." rngLn="203" />
+        <ElDesc lineHash="-675539994" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="205" ln="204" srcRngEndPos="0" srcRngStartln="204" srcRngStartPos="0" desc="fp->_iofd = 0;" ElType="." rngLn="204" />
+        <ElDesc lineHash="-914623591" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="198" ln="197" srcRngEndPos="0" srcRngStartln="197" srcRngStartPos="0" desc="for(fp = _iob; fp &lt; _iob+_nfiles; fp++){" ElType="." rngLn="197">
+          <Anns>
+            <Ann msg="ループ条件評価: (fp &lt; _iob + 20) (false を仮定)" kind="condEval" />
+            <Ann msg="ループに入っていない" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-810658304" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="208" ln="207" srcRngEndPos="0" srcRngStartln="207" srcRngStartPos="0" desc="if(freopen(&quot;stdin&quot;, &quot;r&quot;, stdin)==NULL){" ElType="." rngLn="207">
+          <Anns>
+            <Ann msg="条件評価: (freopen(...) == 0) (false を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1188912718" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="211" ln="210" srcRngEndPos="0" srcRngStartln="210" srcRngStartPos="0" desc="stdin->_ioflag1 |= _IOUNBUF;" ElType="." rngLn="210" />
+        <ElDesc lineHash="-1839514801" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="213" ln="212" srcRngEndPos="0" srcRngStartln="212" srcRngStartPos="0" desc="if(freopen(&quot;stdout&quot;, &quot;w&quot;, stdout)==NULL){" ElType="." rngLn="212">
+          <Anns>
+            <Ann msg="条件評価: (freopen(...) == 0) (false を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1106312469" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="216" ln="215" srcRngEndPos="0" srcRngStartln="215" srcRngStartPos="0" desc="stdout->_ioflag1 |= _IOUNBUF;" ElType="." rngLn="215" />
+        <ElDesc lineHash="119047969" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="218" ln="217" srcRngEndPos="0" srcRngStartln="217" srcRngStartPos="0" desc="if(freopen(&quot;stderr&quot;, &quot;w&quot;, stderr)==NULL){" ElType=".P" rngLn="217">
+          <Props>
+            <Prop key="Tracked variables" val="_iob" />
+          </Props>
+          <Anns>
+            <Ann msg="無効なリソース: _iob" kind="var" />
+            <Ann msg="解放されたポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="ファイルがクローズされていない: freopen(...)" ln="217" locFile="/UnitTest/lowsrc.c" ruleSAFMsg="オープンされたファイルが失われたポイント" FirstElSrcRngEndPos="0" auth="bji" FirstElSrcRngEndLn="218" rule="BD-RES-LEAKS" FirstElSrcRngStartPos="0" lnHash="119047969" ruleSCSCMsg="ファイルがオープンされたポイント" FirstElSrcRngFile="/UnitTest/lowsrc.c" rule.header="リソースが解放されていることを確認する" FirstElSrcRngStartln="217" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-1983732424" lang="cpp" locEndPos="0" urgent="true" locEndLn="218" goals="1," locStartln="217" sev="1" locRef="4" tool="c++test" lineHash="119047969" locType="sr" hash="1950404136" causeLocRef="4">
+      <Props>
+        <Prop key="Tracked variables" val="オープンされたファイル" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-342367157" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="196" ln="195" srcRngEndPos="0" srcRngStartln="195" srcRngStartPos="0" desc="FILE *fp;" ElType="." rngLn="195" />
+        <ElDesc lineHash="-914623591" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="198" ln="197" srcRngEndPos="0" srcRngStartln="197" srcRngStartPos="0" desc="for(fp = _iob; fp &lt; _iob+_nfiles; fp++){" ElType="." rngLn="197">
+          <Anns>
+            <Ann msg="ループ条件評価:(fp &lt; _iob + 20) (true)" kind="condEval" />
+            <Ann msg="ループに入る" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1466017552" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="199" ln="198" srcRngEndPos="0" srcRngStartln="198" srcRngStartPos="0" desc="fp->_bufptr = NULL;" ElType="." rngLn="198" />
+        <ElDesc lineHash="-3545514" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="200" ln="199" srcRngEndPos="0" srcRngStartln="199" srcRngStartPos="0" desc="fp->_bufcnt = 0L;" ElType="." rngLn="199" />
+        <ElDesc lineHash="1373754882" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="201" ln="200" srcRngEndPos="0" srcRngStartln="200" srcRngStartPos="0" desc="fp->_buflen = 0L;" ElType="." rngLn="200" />
+        <ElDesc lineHash="-241995407" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="202" ln="201" srcRngEndPos="0" srcRngStartln="201" srcRngStartPos="0" desc="fp->_bufbase = NULL;" ElType="." rngLn="201" />
+        <ElDesc lineHash="336036115" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="203" ln="202" srcRngEndPos="0" srcRngStartln="202" srcRngStartPos="0" desc="fp->_ioflag1 = 0;" ElType="." rngLn="202" />
+        <ElDesc lineHash="364665266" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="204" ln="203" srcRngEndPos="0" srcRngStartln="203" srcRngStartPos="0" desc="fp->_ioflag2 = 0;" ElType="." rngLn="203" />
+        <ElDesc lineHash="-675539994" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="205" ln="204" srcRngEndPos="0" srcRngStartln="204" srcRngStartPos="0" desc="fp->_iofd = 0;" ElType="." rngLn="204" />
+        <ElDesc lineHash="-914623591" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="198" ln="197" srcRngEndPos="0" srcRngStartln="197" srcRngStartPos="0" desc="for(fp = _iob; fp &lt; _iob+_nfiles; fp++){" ElType="." rngLn="197">
+          <Anns>
+            <Ann msg="ループ条件評価: (fp &lt; _iob + 20) (false を仮定)" kind="condEval" />
+            <Ann msg="ループに入っていない" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-810658304" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="208" ln="207" srcRngEndPos="0" srcRngStartln="207" srcRngStartPos="0" desc="if(freopen(&quot;stdin&quot;, &quot;r&quot;, stdin)==NULL){" ElType="." rngLn="207">
+          <Anns>
+            <Ann msg="条件評価: (freopen(...) == 0) (false を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1188912718" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="211" ln="210" srcRngEndPos="0" srcRngStartln="210" srcRngStartPos="0" desc="stdin->_ioflag1 |= _IOUNBUF;" ElType="." rngLn="210" />
+        <ElDesc lineHash="-1839514801" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="213" ln="212" srcRngEndPos="0" srcRngStartln="212" srcRngStartPos="0" desc="if(freopen(&quot;stdout&quot;, &quot;w&quot;, stdout)==NULL){" ElType="." rngLn="212">
+          <Anns>
+            <Ann msg="条件評価: (freopen(...) == 0) (false を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1106312469" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="216" ln="215" srcRngEndPos="0" srcRngStartln="215" srcRngStartPos="0" desc="stdout->_ioflag1 |= _IOUNBUF;" ElType="." rngLn="215" />
+        <ElDesc lineHash="119047969" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="218" ln="217" srcRngEndPos="0" srcRngStartln="217" srcRngStartPos="0" desc="freopen(...)" ElType=".C" rngLn="217">
+          <Props>
+            <Prop key="Tracked variables" val="freopen(...)" />
+          </Props>
+          <Anns>
+            <Ann msg="ファイルがオープンされたポイント" kind="cause" />
+            <Ann msg="オープンされたファイル: freopen(...)" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="119047969" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="218" ln="217" srcRngEndPos="0" srcRngStartln="217" srcRngStartPos="0" desc="if(freopen(&quot;stderr&quot;, &quot;w&quot;, stderr)==NULL){" ElType=".P" rngLn="217">
+          <Props>
+            <Prop key="Tracked variables" val="freopen(...)" />
+          </Props>
+          <Anns>
+            <Ann msg="オープンされたファイル: freopen(...)" kind="var" />
+            <Ann msg="オープンされたファイルが失われたポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="無効なリソースの解放: &quot;_iob + i&quot; はメモリ中のリソースの先頭を指していない" ln="232" locFile="/UnitTest/lowsrc.c" ruleSAFMsg="解放されたポイント" FirstElSrcRngEndPos="0" auth="bji" FirstElSrcRngEndLn="208" rule="BD-RES-INVFREE" FirstElSrcRngStartPos="0" lnHash="948009748" ruleSCSCMsg="リソースが定義されたポイント" FirstElSrcRngFile="/UnitTest/lowsrc.c" rule.header="無効なポインタを使用してリソースを解放してはならない" FirstElSrcRngStartln="207" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="182769738" lang="cpp" locEndPos="0" urgent="true" locEndLn="233" goals="1," locStartln="232" sev="1" locRef="4" tool="c++test" lineHash="948009748" locType="sr" hash="1950404136" causeLocRef="4">
+      <Props>
+        <Prop key="Tracked variables" val="無効なリソース" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="1246507299" locType="sr" srcRnghash="-1075093856" locRef="1" srcRngFile="/UnitTest/resetprg.c" srcRngEndLn="104" ln="103" srcRngEndPos="0" srcRngStartln="103" srcRngStartPos="0" desc="volatile _UDWORD* ramcr_address;" ElType="." rngLn="103" />
+        <ElDesc lineHash="1742337748" locType="sr" srcRnghash="-1075093856" locRef="1" srcRngFile="/UnitTest/resetprg.c" srcRngEndLn="106" ln="105" srcRngEndPos="0" srcRngStartln="105" srcRngStartPos="0" desc="set_vbr((void *)((_UINT)INTHandlerPRG - INT_OFFSET));" ElType="." rngLn="105" />
+        <ElDesc lineHash="1281912110" locType="sr" srcRnghash="-1075093856" locRef="1" srcRngFile="/UnitTest/resetprg.c" srcRngEndLn="108" ln="107" srcRngEndPos="0" srcRngStartln="107" srcRngStartPos="0" desc="set_fpscr(FPSCR_Init &amp; FPSCR_RM &amp; FPSCR_DN);" ElType="." rngLn="107" />
+        <ElDesc lineHash="-400383012" locType="sr" srcRnghash="-1075093856" locRef="1" srcRngFile="/UnitTest/resetprg.c" srcRngEndLn="112" ln="111" srcRngEndPos="0" srcRngStartln="111" srcRngStartPos="0" desc="_INITSCT();" ElType="." rngLn="111" />
+        <ElDesc lineHash="-1462368343" locType="sr" srcRnghash="-1075093856" locRef="1" srcRngFile="/UnitTest/resetprg.c" srcRngEndLn="116" ln="115" srcRngEndPos="0" srcRngStartln="115" srcRngStartPos="0" desc="_INIT_IOLIB(); // Enable I/O in the application(both SIM I/O and hardware I/O)" ElType="!" rngLn="115">
+          <ElDescList>
+            <ElDesc lineHash="-342367157" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="196" ln="195" srcRngEndPos="0" srcRngStartln="195" srcRngStartPos="0" desc="FILE *fp;" ElType="." rngLn="195" />
+            <ElDesc lineHash="-914623591" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="198" ln="197" srcRngEndPos="0" srcRngStartln="197" srcRngStartPos="0" desc="for(fp = _iob; fp &lt; _iob+_nfiles; fp++){" ElType="." rngLn="197">
+              <Anns>
+                <Ann msg="ループ条件評価:(fp &lt; _iob + 20) (true)" kind="condEval" />
+                <Ann msg="ループに入る" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="1466017552" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="199" ln="198" srcRngEndPos="0" srcRngStartln="198" srcRngStartPos="0" desc="fp->_bufptr = NULL;" ElType="." rngLn="198" />
+            <ElDesc lineHash="-3545514" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="200" ln="199" srcRngEndPos="0" srcRngStartln="199" srcRngStartPos="0" desc="fp->_bufcnt = 0L;" ElType="." rngLn="199" />
+            <ElDesc lineHash="1373754882" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="201" ln="200" srcRngEndPos="0" srcRngStartln="200" srcRngStartPos="0" desc="fp->_buflen = 0L;" ElType="." rngLn="200" />
+            <ElDesc lineHash="-241995407" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="202" ln="201" srcRngEndPos="0" srcRngStartln="201" srcRngStartPos="0" desc="fp->_bufbase = NULL;" ElType="." rngLn="201" />
+            <ElDesc lineHash="336036115" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="203" ln="202" srcRngEndPos="0" srcRngStartln="202" srcRngStartPos="0" desc="fp->_ioflag1 = 0;" ElType="." rngLn="202" />
+            <ElDesc lineHash="364665266" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="204" ln="203" srcRngEndPos="0" srcRngStartln="203" srcRngStartPos="0" desc="fp->_ioflag2 = 0;" ElType="." rngLn="203" />
+            <ElDesc lineHash="-675539994" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="205" ln="204" srcRngEndPos="0" srcRngStartln="204" srcRngStartPos="0" desc="fp->_iofd = 0;" ElType="." rngLn="204" />
+            <ElDesc lineHash="-914623591" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="198" ln="197" srcRngEndPos="0" srcRngStartln="197" srcRngStartPos="0" desc="for(fp = _iob; fp &lt; _iob+_nfiles; fp++){" ElType="." rngLn="197">
+              <Anns>
+                <Ann msg="ループ条件評価: (fp &lt; _iob + 20) (false を仮定)" kind="condEval" />
+                <Ann msg="ループに入っていない" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="-810658304" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="208" ln="207" srcRngEndPos="0" srcRngStartln="207" srcRngStartPos="0" desc="if(freopen(&quot;stdin&quot;, &quot;r&quot;, stdin)==NULL){" ElType=".C" rngLn="207">
+              <Props>
+                <Prop key="Tracked variables" val="_iob" />
+              </Props>
+              <Anns>
+                <Ann msg="リソースが定義されたポイント" kind="cause" />
+                <Ann msg="無効なリソース: _iob" kind="var" />
+                <Ann msg="条件評価: (freopen(...) == 0) (false を仮定)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="1188912718" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="211" ln="210" srcRngEndPos="0" srcRngStartln="210" srcRngStartPos="0" desc="stdin->_ioflag1 |= _IOUNBUF;" ElType="." rngLn="210" />
+            <ElDesc lineHash="-1839514801" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="213" ln="212" srcRngEndPos="0" srcRngStartln="212" srcRngStartPos="0" desc="if(freopen(&quot;stdout&quot;, &quot;w&quot;, stdout)==NULL){" ElType="." rngLn="212">
+              <Anns>
+                <Ann msg="条件評価: (freopen(...) == 0) (false を仮定)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="-1106312469" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="216" ln="215" srcRngEndPos="0" srcRngStartln="215" srcRngStartPos="0" desc="stdout->_ioflag1 |= _IOUNBUF;" ElType="." rngLn="215" />
+            <ElDesc lineHash="119047969" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="218" ln="217" srcRngEndPos="0" srcRngStartln="217" srcRngStartPos="0" desc="if(freopen(&quot;stderr&quot;, &quot;w&quot;, stderr)==NULL){" ElType="." rngLn="217">
+              <Anns>
+                <Ann msg="条件評価: (freopen(...) == 0) (false を仮定)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="654163700" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="221" ln="220" srcRngEndPos="0" srcRngStartln="220" srcRngStartPos="0" desc="stderr->_ioflag1 |= _IOUNBUF;" ElType="." rngLn="220" />
+          </ElDescList>
+        </ElDesc>
+        <ElDesc lineHash="-1440284247" locType="sr" srcRnghash="-1075093856" locRef="1" srcRngFile="/UnitTest/resetprg.c" srcRngEndLn="122" ln="121" srcRngEndPos="0" srcRngStartln="121" srcRngStartPos="0" desc="ramcr_address = (_UDWORD*)RAMCR_ADDRESS;" ElType="." rngLn="121">
+          <Props>
+            <Prop key="Tracked variables" val="_iob" />
+          </Props>
+          <Anns>
+            <Ann msg="無効なリソース: _iob" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-976964516" locType="sr" srcRnghash="-1075093856" locRef="1" srcRngFile="/UnitTest/resetprg.c" srcRngEndLn="123" ln="122" srcRngEndPos="0" srcRngStartln="122" srcRngStartPos="0" desc="*ramcr_address = RAMCR_INIT_VALUE;" ElType="." rngLn="122" />
+        <ElDesc lineHash="1757745551" locType="sr" srcRnghash="-1075093856" locRef="1" srcRngFile="/UnitTest/resetprg.c" srcRngEndLn="124" ln="123" srcRngEndPos="0" srcRngStartln="123" srcRngStartPos="0" desc="set_cr(SR_Init);" ElType="." rngLn="123" />
+        <ElDesc lineHash="-663608616" locType="sr" srcRnghash="-1075093856" locRef="1" srcRngFile="/UnitTest/resetprg.c" srcRngEndLn="126" ln="125" srcRngEndPos="0" srcRngStartln="125" srcRngStartPos="0" desc="main();" ElType="." rngLn="125" />
+        <ElDesc lineHash="1761158593" locType="sr" srcRnghash="-1075093856" locRef="1" srcRngFile="/UnitTest/resetprg.c" srcRngEndLn="128" ln="127" srcRngEndPos="0" srcRngStartln="127" srcRngStartPos="0" desc="_CLOSEALL(); // Close I/O in the application(both SIM I/O and hardware I/O)" ElType="!" rngLn="127">
+          <ElDescList>
+            <ElDesc lineHash="541512663" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="229" ln="228" srcRngEndPos="0" srcRngStartln="228" srcRngStartPos="0" desc="_SINT i;" ElType="." rngLn="228">
+              <Props>
+                <Prop key="Tracked variables" val="_iob" />
+              </Props>
+              <Anns>
+                <Ann msg="無効なリソース: _iob" kind="var" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="-1165755643" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="231" ln="230" srcRngEndPos="0" srcRngStartln="230" srcRngStartPos="0" desc="for(i = 0; i &lt; _nfiles; i++){" ElType="!" rngLn="230">
+              <Anns>
+                <Ann msg="ループ条件評価:(i &lt; 20) (true)" kind="condEval" />
+                <Ann msg="ループに入る" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="439235321" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="232" ln="231" srcRngEndPos="0" srcRngStartln="231" srcRngStartPos="0" desc="if(_iob[i]._ioflag1 &amp; (_IOREAD | _IOWRITE | _IORW )){" ElType="." rngLn="231">
+              <Props>
+                <Prop key="Tracked variables" val="_iob" />
+                <Prop key="Important values" val="i" />
+              </Props>
+              <Anns>
+                <Ann msg="無効なリソース: _iob" kind="var" />
+                <Ann msg="条件評価: ((int)_iob[i]._ioflag1 &amp; 7 != 0) (true を仮定)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="948009748" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="233" ln="232" srcRngEndPos="0" srcRngStartln="232" srcRngStartPos="0" desc="fclose(&amp;_iob[i]);" ElType="!" rngLn="232" />
+            <ElDesc lineHash="-1165755643" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="231" ln="230" srcRngEndPos="0" srcRngStartln="230" srcRngStartPos="0" desc="for(i = 0; i &lt; _nfiles; i++){" ElType="." rngLn="230">
+              <Props>
+                <Prop key="Tracked variables" val="_iob" />
+              </Props>
+              <Anns>
+                <Ann msg="無効なリソース: _iob" kind="var" />
+                <Ann msg="ループ条件評価: (i &lt; 20) (true を仮定)" kind="condEval" />
+                <Ann msg="ループに入る" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="439235321" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="232" ln="231" srcRngEndPos="0" srcRngStartln="231" srcRngStartPos="0" desc="if(_iob[i]._ioflag1 &amp; (_IOREAD | _IOWRITE | _IORW )){" ElType="." rngLn="231">
+              <Anns>
+                <Ann msg="条件評価: ((int)_iob[i]._ioflag1 &amp; 7 != 0) (true を仮定)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="948009748" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="233" ln="232" srcRngEndPos="0" srcRngStartln="232" srcRngStartPos="0" desc="fclose(&amp;_iob[i]);" ElType=".P" rngLn="232">
+              <Props>
+                <Prop key="Tracked variables" val="_iob" />
+              </Props>
+              <Anns>
+                <Ann msg="無効なリソース: _iob" kind="var" />
+                <Ann msg="解放されたポイント" kind="point" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="無効なリソースの解放: &quot;_iob + i&quot; はメモリ中のリソースの先頭を指していない" ln="232" locFile="/UnitTest/lowsrc.c" ruleSAFMsg="解放されたポイント" FirstElSrcRngEndPos="0" auth="bji" FirstElSrcRngEndLn="198" rule="BD-RES-INVFREE" FirstElSrcRngStartPos="0" lnHash="948009748" ruleSCSCMsg="リソースが定義されたポイント" FirstElSrcRngFile="/UnitTest/lowsrc.c" rule.header="無効なポインタを使用してリソースを解放してはならない" FirstElSrcRngStartln="197" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="1775324932" lang="cpp" locEndPos="0" urgent="true" locEndLn="233" goals="1," locStartln="232" sev="1" locRef="4" tool="c++test" lineHash="948009748" locType="sr" hash="1950404136" causeLocRef="4">
+      <Props>
+        <Prop key="Tracked variables" val="無効なリソース" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="1246507299" locType="sr" srcRnghash="-1075093856" locRef="1" srcRngFile="/UnitTest/resetprg.c" srcRngEndLn="104" ln="103" srcRngEndPos="0" srcRngStartln="103" srcRngStartPos="0" desc="volatile _UDWORD* ramcr_address;" ElType="." rngLn="103" />
+        <ElDesc lineHash="1742337748" locType="sr" srcRnghash="-1075093856" locRef="1" srcRngFile="/UnitTest/resetprg.c" srcRngEndLn="106" ln="105" srcRngEndPos="0" srcRngStartln="105" srcRngStartPos="0" desc="set_vbr((void *)((_UINT)INTHandlerPRG - INT_OFFSET));" ElType="." rngLn="105" />
+        <ElDesc lineHash="1281912110" locType="sr" srcRnghash="-1075093856" locRef="1" srcRngFile="/UnitTest/resetprg.c" srcRngEndLn="108" ln="107" srcRngEndPos="0" srcRngStartln="107" srcRngStartPos="0" desc="set_fpscr(FPSCR_Init &amp; FPSCR_RM &amp; FPSCR_DN);" ElType="." rngLn="107" />
+        <ElDesc lineHash="-400383012" locType="sr" srcRnghash="-1075093856" locRef="1" srcRngFile="/UnitTest/resetprg.c" srcRngEndLn="112" ln="111" srcRngEndPos="0" srcRngStartln="111" srcRngStartPos="0" desc="_INITSCT();" ElType="." rngLn="111" />
+        <ElDesc lineHash="-1462368343" locType="sr" srcRnghash="-1075093856" locRef="1" srcRngFile="/UnitTest/resetprg.c" srcRngEndLn="116" ln="115" srcRngEndPos="0" srcRngStartln="115" srcRngStartPos="0" desc="_INIT_IOLIB(); // Enable I/O in the application(both SIM I/O and hardware I/O)" ElType="!" rngLn="115">
+          <ElDescList>
+            <ElDesc lineHash="-342367157" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="196" ln="195" srcRngEndPos="0" srcRngStartln="195" srcRngStartPos="0" desc="FILE *fp;" ElType="." rngLn="195" />
+            <ElDesc lineHash="-914623591" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="198" ln="197" srcRngEndPos="0" srcRngStartln="197" srcRngStartPos="0" desc="for(fp = _iob; fp &lt; _iob+_nfiles; fp++){" ElType=".C" rngLn="197">
+              <Props>
+                <Prop key="Tracked variables" val="_iob" />
+              </Props>
+              <Anns>
+                <Ann msg="リソースが定義されたポイント" kind="cause" />
+                <Ann msg="無効なリソース: _iob" kind="var" />
+                <Ann msg="ループ条件評価:(fp &lt; _iob + 20) (true)" kind="condEval" />
+                <Ann msg="ループに入る" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="1466017552" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="199" ln="198" srcRngEndPos="0" srcRngStartln="198" srcRngStartPos="0" desc="fp->_bufptr = NULL;" ElType="." rngLn="198" />
+            <ElDesc lineHash="-3545514" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="200" ln="199" srcRngEndPos="0" srcRngStartln="199" srcRngStartPos="0" desc="fp->_bufcnt = 0L;" ElType="." rngLn="199" />
+            <ElDesc lineHash="1373754882" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="201" ln="200" srcRngEndPos="0" srcRngStartln="200" srcRngStartPos="0" desc="fp->_buflen = 0L;" ElType="." rngLn="200" />
+            <ElDesc lineHash="-241995407" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="202" ln="201" srcRngEndPos="0" srcRngStartln="201" srcRngStartPos="0" desc="fp->_bufbase = NULL;" ElType="." rngLn="201" />
+            <ElDesc lineHash="336036115" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="203" ln="202" srcRngEndPos="0" srcRngStartln="202" srcRngStartPos="0" desc="fp->_ioflag1 = 0;" ElType="." rngLn="202" />
+            <ElDesc lineHash="364665266" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="204" ln="203" srcRngEndPos="0" srcRngStartln="203" srcRngStartPos="0" desc="fp->_ioflag2 = 0;" ElType="." rngLn="203" />
+            <ElDesc lineHash="-675539994" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="205" ln="204" srcRngEndPos="0" srcRngStartln="204" srcRngStartPos="0" desc="fp->_iofd = 0;" ElType="." rngLn="204" />
+            <ElDesc lineHash="-914623591" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="198" ln="197" srcRngEndPos="0" srcRngStartln="197" srcRngStartPos="0" desc="for(fp = _iob; fp &lt; _iob+_nfiles; fp++){" ElType="." rngLn="197">
+              <Anns>
+                <Ann msg="ループ条件評価: (fp &lt; _iob + 20) (false を仮定)" kind="condEval" />
+                <Ann msg="ループに入っていない" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="-810658304" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="208" ln="207" srcRngEndPos="0" srcRngStartln="207" srcRngStartPos="0" desc="if(freopen(&quot;stdin&quot;, &quot;r&quot;, stdin)==NULL){" ElType="." rngLn="207">
+              <Anns>
+                <Ann msg="条件評価: (freopen(...) == 0) (false を仮定)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="1188912718" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="211" ln="210" srcRngEndPos="0" srcRngStartln="210" srcRngStartPos="0" desc="stdin->_ioflag1 |= _IOUNBUF;" ElType="." rngLn="210" />
+            <ElDesc lineHash="-1839514801" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="213" ln="212" srcRngEndPos="0" srcRngStartln="212" srcRngStartPos="0" desc="if(freopen(&quot;stdout&quot;, &quot;w&quot;, stdout)==NULL){" ElType="." rngLn="212">
+              <Anns>
+                <Ann msg="条件評価: (freopen(...) == 0) (false を仮定)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="-1106312469" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="216" ln="215" srcRngEndPos="0" srcRngStartln="215" srcRngStartPos="0" desc="stdout->_ioflag1 |= _IOUNBUF;" ElType="." rngLn="215" />
+            <ElDesc lineHash="119047969" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="218" ln="217" srcRngEndPos="0" srcRngStartln="217" srcRngStartPos="0" desc="if(freopen(&quot;stderr&quot;, &quot;w&quot;, stderr)==NULL){" ElType="." rngLn="217">
+              <Anns>
+                <Ann msg="条件評価: (freopen(...) == 0) (false を仮定)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="654163700" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="221" ln="220" srcRngEndPos="0" srcRngStartln="220" srcRngStartPos="0" desc="stderr->_ioflag1 |= _IOUNBUF;" ElType="." rngLn="220" />
+          </ElDescList>
+        </ElDesc>
+        <ElDesc lineHash="-1440284247" locType="sr" srcRnghash="-1075093856" locRef="1" srcRngFile="/UnitTest/resetprg.c" srcRngEndLn="122" ln="121" srcRngEndPos="0" srcRngStartln="121" srcRngStartPos="0" desc="ramcr_address = (_UDWORD*)RAMCR_ADDRESS;" ElType="." rngLn="121">
+          <Props>
+            <Prop key="Tracked variables" val="_iob" />
+          </Props>
+          <Anns>
+            <Ann msg="無効なリソース: _iob" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-976964516" locType="sr" srcRnghash="-1075093856" locRef="1" srcRngFile="/UnitTest/resetprg.c" srcRngEndLn="123" ln="122" srcRngEndPos="0" srcRngStartln="122" srcRngStartPos="0" desc="*ramcr_address = RAMCR_INIT_VALUE;" ElType="." rngLn="122" />
+        <ElDesc lineHash="1757745551" locType="sr" srcRnghash="-1075093856" locRef="1" srcRngFile="/UnitTest/resetprg.c" srcRngEndLn="124" ln="123" srcRngEndPos="0" srcRngStartln="123" srcRngStartPos="0" desc="set_cr(SR_Init);" ElType="." rngLn="123" />
+        <ElDesc lineHash="-663608616" locType="sr" srcRnghash="-1075093856" locRef="1" srcRngFile="/UnitTest/resetprg.c" srcRngEndLn="126" ln="125" srcRngEndPos="0" srcRngStartln="125" srcRngStartPos="0" desc="main();" ElType="." rngLn="125" />
+        <ElDesc lineHash="1761158593" locType="sr" srcRnghash="-1075093856" locRef="1" srcRngFile="/UnitTest/resetprg.c" srcRngEndLn="128" ln="127" srcRngEndPos="0" srcRngStartln="127" srcRngStartPos="0" desc="_CLOSEALL(); // Close I/O in the application(both SIM I/O and hardware I/O)" ElType="!" rngLn="127">
+          <ElDescList>
+            <ElDesc lineHash="541512663" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="229" ln="228" srcRngEndPos="0" srcRngStartln="228" srcRngStartPos="0" desc="_SINT i;" ElType="." rngLn="228">
+              <Props>
+                <Prop key="Tracked variables" val="_iob" />
+              </Props>
+              <Anns>
+                <Ann msg="無効なリソース: _iob" kind="var" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="-1165755643" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="231" ln="230" srcRngEndPos="0" srcRngStartln="230" srcRngStartPos="0" desc="for(i = 0; i &lt; _nfiles; i++){" ElType="." rngLn="230">
+              <Anns>
+                <Ann msg="ループ条件評価:(i &lt; 20) (true)" kind="condEval" />
+                <Ann msg="ループに入る" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="439235321" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="232" ln="231" srcRngEndPos="0" srcRngStartln="231" srcRngStartPos="0" desc="if(_iob[i]._ioflag1 &amp; (_IOREAD | _IOWRITE | _IORW )){" ElType="." rngLn="231">
+              <Anns>
+                <Ann msg="条件評価: ((int)_iob[i]._ioflag1 &amp; 7 != 0) (true を仮定)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="948009748" locType="sr" srcRnghash="1950404136" locRef="4" srcRngFile="/UnitTest/lowsrc.c" srcRngEndLn="233" ln="232" srcRngEndPos="0" srcRngStartln="232" srcRngStartPos="0" desc="fclose(&amp;_iob[i]);" ElType=".P" rngLn="232">
+              <Props>
+                <Prop key="Tracked variables" val="_iob" />
+              </Props>
+              <Anns>
+                <Ann msg="無効なリソース: _iob" kind="var" />
+                <Ann msg="解放されたポイント" kind="point" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+  </StdViols>
+
+      <TestedFilesDetails>
+         <Total name="合計 (抑制された)" supp="0" total="9">
+            <Project id="UnitTest" name="UnitTest" supp="0" total="9">
+               <Res loc="/UnitTest/resetprg.c" locRef="1" locType="sr" name="resetprg.c" supp="0" total="0" />
+               <Res loc="/UnitTest/sample.c" locRef="2" locType="sr" name="sample.c" supp="0" total="0" />
+               <Res loc="/UnitTest/UnitTest.c" locRef="3" locType="sr" name="UnitTest.c" supp="0" total="0" />
+               <Res loc="/UnitTest/lowsrc.c" locRef="4" locType="sr" name="lowsrc.c" supp="0" total="9" />
+               <Res loc="/UnitTest/dbsct.c" locRef="5" locType="sr" name="dbsct.c" supp="0" total="0" />
+               <Res loc="/UnitTest/sbrk.c" locRef="6" locType="sr" name="sbrk.c" supp="0" total="0" />
+               <Res loc="/UnitTest/sbrk.h" locRef="7" locType="sr" name="sbrk.h" supp="0" total="0" />
+               <Res loc="/UnitTest/lowsrc.h" locRef="8" locType="sr" name="lowsrc.h" supp="0" total="0" />
+               <Res loc="/UnitTest/stacksct.h" locRef="9" locType="sr" name="stacksct.h" supp="0" total="0" />
+               <Res loc="/UnitTest/typedefine.h" locRef="10" locType="sr" name="typedefine.h" supp="0" total="0" />
+            </Project>
+         </Total>
+      </TestedFilesDetails>
+   </CodingStandards>
+   <Statistics>
+      
+   </Statistics>
+</ResultsSession>

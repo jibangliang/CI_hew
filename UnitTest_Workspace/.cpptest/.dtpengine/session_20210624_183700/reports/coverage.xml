@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Coverage ver="2" hasViols="false" id="1626344463017" lang="ja_JP" climode="true" time="2021-06-24T18:37:51+09:00" machine="PC-3926" user="bji" toolName="DTP Engine for C/C++" execEnv="win32_x86_64" toolId="c++test" toolVer="2020.2.0" toolDispName="C/C++test" project="Default Project" buildId="Default Project-2021-06-24" tag="Run HEW 4.x Tests (simulated IO) H'00000004">
+	<TestConfig machine="PC-3926" pseudoUrl="C:\CI_hew\UnitTest_Workspace\.cpptest\.dtpengine\session_20210624_183700\Run HEW 4.x Tests (simulated IO) H'00000004.properties" name="Run HEW 4.x Tests (simulated IO) H'00000004" user="bji" />
+	<VersionInfos>
+		<VersionInfo id="LC" ver="1" />
+	</VersionInfos>
+	<Repositories />
+	<Locations>
+		<Loc locRef="1" projId="UnitTest" uri="file://PC-3926/C:/CI_hew/UnitTest_Workspace/UnitTest/sample.c" hash="-680717742" projPath="/UnitTest" resProjPath="sample.c" project="UnitTest" />
+	</Locations>
+	<Tests>
+		<Test testRef="1" id="CPP://-2398500523183416080" tCase="3042843597720601147" />
+	</Tests>
+	<CoverageData type="LC">
+		<CvgData locRef="1">
+			<Stats>
+				<Item itemRef="1" id="1bc41a88_sub_sampleTest" name="sub_sampleTest" />
+				<Item itemRef="2" id="f8a33aab_sampleTest" name="sampleTest" />
+			</Stats>
+			<Static>
+				<StatCvg itemRef="1" elems="12" hashes="1941629162" />
+				<StatCvg itemRef="2" elems="5 6 7" hashes="1014849867 1087305288 1890368682" />
+			</Static>
+			<Dynamic>
+				<DynCvg itemRef="2">
+					<CtxCvg testRefs="1" elemRefs="5 6 7" />
+				</DynCvg>
+				<DynCvg itemRef="1">
+					<CtxCvg testRefs="1" elemRefs="12" />
+				</DynCvg>
+			</Dynamic>
+		</CvgData>
+	</CoverageData>
+</Coverage>

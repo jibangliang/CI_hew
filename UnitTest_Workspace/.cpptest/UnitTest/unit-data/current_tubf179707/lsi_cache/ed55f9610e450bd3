@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LibrarySymbols tool="C++Test" formatVersion="1.0" source="C:\CI_hew\UnitTest_Workspace\UnitTest\SimDebug_SH-4A_Cycle_L\lowsrc.obj">
+    <Symbol name="_open" remangled="_open"/>
+    <Symbol name="_close" remangled="_close"/>
+    <Symbol name="_read" remangled="_read"/>
+    <Symbol name="_write" remangled="_write"/>
+    <Symbol name="_lseek" remangled="_lseek"/>
+    <Symbol name="__INIT_IOLIB" remangled="__INIT_IOLIB"/>
+    <Symbol name="__CLOSEALL" remangled="__CLOSEALL"/>
+    <Symbol name="__nfiles" remangled="__nfiles"/>
+    <Symbol name="__iob" remangled="__iob"/>
+    <Symbol name="_sml_buf" remangled="_sml_buf"/>
+    <Symbol name="_flmod" remangled="_flmod"/>
+</LibrarySymbols>

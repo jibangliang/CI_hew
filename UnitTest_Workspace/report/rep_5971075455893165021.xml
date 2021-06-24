@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ResultsSession buildId="Default Project-2021-05-31" date="05/31/21 12:02:51" machine="PC-3926" project="Default Project" tag="Run HEW 4.x Tests (simulated IO)" time="2021-05-31T12:02:51+09:00" toolName="C++test" toolVer="10.4.3.20191114B689" user="bji">
+   <TestConfig machine="PC-3926" name="Run HEW 4.x Tests (simulated IO)" pseudoUrl="c++test.file:/C:/unit2/Run HEW 4.x Tests (simulated IO).properties" user="bji" />
+   <Authors />
+   <VersionInfos>
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.execution" resultId="IExecutionViolation" ver="2" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.execution" resultId="InsureViolation" ver="3" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.codereview" resultId="ICodeReviewUndefinedAuthorsInfo" ver="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.codereview" resultId="ICodeReviewScannerInfo" ver="2" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.scope" resultId="IScopeProjectInfo" ver="3" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricsViolation" ver="2" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IDupCodeViolation" ver="2" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricEstimationInfo" ver="2" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IFlowAnalysisViolation" ver="2" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="ICodingStandardsViolation" ver="2" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.generation" resultId="IGenerationInfo" ver="2" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.generation" resultId="IGenerationProjectInfo" ver="2" />
+   </VersionInfos>
+   
+   
+   <Scope>
+      <ProjectInformations>
+         <ScopeProjectInfo fltFiles="13" fltLns="4141" project="/UnitTest" totFiles="13" totLns="4141" />
+      </ProjectInformations>
+   </Scope>
+   <Exec ownerId="com.parasoft.xtest.checkers.api.execution" time="0:00:48">
+      <Goals>
+         <Goal mode="1" name="単体テストの問題" type="0" />
+         <Goal mode="1" name="単体テストの結果" type="3" />
+         <Goal mode="1" name="実行時エラー検出違反" type="5" />
+      </Goals>
+      
+  <ExecViols />
+
+      
+      <Categories>
+         <Category desc="" id="5" label="実行時エラー検出のタスクの修正" label0="実行時エラー検出" label1="の修正" name="実行時エラー検出違反">
+            <SubCategory id="9" name="実行時違反" short="実行時違反" />
+            <SubCategory id="17" name="メモリ" short="メモリ" />
+         </Category>
+         <Category desc="レビュー済みのテストから発生したタスクを表します。期待される値としてマークされた例外、レビュー済みのテストのアサーションの失敗、その他タイムアウトなどの確認が必要な予期しない振る舞いが含まれます" id="0" label="単体テストの問題の修正" label0="単体テストの問題" label1="の修正" name="単体テストの問題">
+            <SubCategory id="0" name="実行時例外" short="例外" />
+            <SubCategory id="1" name="アサーションの失敗" short="失敗" />
+            <SubCategory id="14" name="実行の問題" short="実行の問題" />
+            <SubCategory id="15" name="テストの問題" short="テストの問題" />
+         </Category>
+         <Category desc="例外またはアサーションの失敗が発生しなかった自動生成されたテスト ケースの結果を表します。結果が適切であることを確認し、まだアサーションに変換されていない場合は変換します" id="3" label="単体テストの結果の検証" label0="単体テストの結果" label1="の検証" name="単体テストの結果">
+            <SubCategory id="6" name="未検証の結果" short="未検証の結果" />
+         </Category>
+      </Categories>
+      <Summary>
+         <Total>
+            <CategoryErrors authCount="" authUrgCount="" cat="5" count="0">
+               <SubCategoryErrors authCount="" authUrgCount="" count="0" subCat="9" />
+               <SubCategoryErrors authCount="" authUrgCount="" count="0" subCat="17" />
+            </CategoryErrors>
+            <CategoryErrors authCount="" authUrgCount="" cat="0" count="0">
+               <SubCategoryErrors authCount="" authUrgCount="" count="0" subCat="0" />
+               <SubCategoryErrors authCount="" authUrgCount="" count="0" subCat="1" />
+               <SubCategoryErrors authCount="" authUrgCount="" count="0" subCat="14" />
+               <SubCategoryErrors authCount="" authUrgCount="" count="0" subCat="15" />
+            </CategoryErrors>
+            <CategoryErrors authCount="" authUrgCount="" cat="3" count="0">
+               <SubCategoryErrors authCount="" authUrgCount="" count="0" subCat="6" />
+            </CategoryErrors>
+         </Total>
+         <Projects />
+      </Summary>
+      <Coverage>
+         <Types>
+            <CvgType cvgDecor="marker" dispCvg="実行可能行" dispId="LC" dispName="行 カバレッジ" dispNoCvg="実行可能行がない" id="LC" />
+         </Types>
+         <CvgStats>
+            <CvgInfo elem="合計" exp="1" num="0" total="5" val="0">
+               <CvgInfo elem="UnitTest" exp="1" num="0" total="5" val="0">
+                  <CvgInfo elem="sample.c" loc="/UnitTest/sample.c" num="0" total="5" val="0">
+                     <CvgInfo elem="sampleTest" num="0" total="3" val="0" />
+                     <CvgInfo elem="sub_sampleTest" num="0" total="2" val="0" />
+                  </CvgInfo>
+               </CvgInfo>
+            </CvgInfo>
+         </CvgStats>
+         
+         
+      </Coverage>
+      <TestingProcessProblems>
+         <CppAnalysisProblem tested="/UnitTest">
+            <ErrorList>
+               <Error val="テスト実行: /UnitTest/sample.c のテスト ユニット のテスト ログを読み込み中にエラーが発生しました" />
+            </ErrorList>
+         </CppAnalysisProblem>
+      </TestingProcessProblems>
+   </Exec>
+   <AssocUrls />
+</ResultsSession>

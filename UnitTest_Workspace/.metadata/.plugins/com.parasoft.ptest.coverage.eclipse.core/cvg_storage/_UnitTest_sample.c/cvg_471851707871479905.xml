@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CvgData file="/UnitTest/sample.c" type="PC">
+  <VersionInfos>
+    <StorageInfo ownerId="PC" resultId="IDynamicCoverageInfo" ver="2"/>
+    <StorageInfo ownerId="PC" resultId="PathCoverageStaticInfo" ver="2"/>
+  </VersionInfos>
+  <CtxList ids="3042843597720601147" uniqueId2MainId="CPP://-2398500523183416080"/>
+  <Stats>
+    <ElemStats elem="/UnitTest/sample.c;10;sub_sampleTest" total="1" num="1"/>
+    <ElemStats elem="/UnitTest/sample.c;4;sampleTest" total="1" num="1"/>
+  </Stats>
+  <ResultInfo cvgType="PC">
+    <DynCvg elem="/UnitTest/sample.c;10;sub_sampleTest">
+      <CtxCvg ctx="3042843597720601147" ids="sub_sampleTest" cnts="2" paths="1" expect="1"/>
+    </DynCvg>
+    <DynCvg elem="/UnitTest/sample.c;4;sampleTest">
+      <CtxCvg ctx="3042843597720601147" ids="sampleTest" cnts="2" paths="1" expect="1"/>
+    </DynCvg>
+  </ResultInfo>
+  <ResultInfo cvgType="PC" stat="true">
+    <StatCvg elem="/UnitTest/sample.c;10;sub_sampleTest" show="true">
+      <CvgElem pathsNo="1" id="sub_sampleTest">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="12" locStartPos="8" locEndLn="12" locEndPos="17" locFile="/UnitTest/sample.c"/>
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+    <StatCvg elem="/UnitTest/sample.c;4;sampleTest" show="true">
+      <CvgElem pathsNo="1" id="sampleTest">
+        <BlckInfo id="1" blckTrans="">
+          <PathBlckLoc locStartln="5" locStartPos="8" locEndLn="7" locEndPos="19" locFile="/UnitTest/sample.c"/>
+        </BlckInfo>
+      </CvgElem>
+    </StatCvg>
+  </ResultInfo>
+</CvgData>

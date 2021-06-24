@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestRunnerData version="1.0">
+    <StubInfo id="user_func_1" type="user" func_id="func" user_id="func" stub_guard="CPPTEST_USER_STUB_func" callback="true" />
+</TestRunnerData>
+

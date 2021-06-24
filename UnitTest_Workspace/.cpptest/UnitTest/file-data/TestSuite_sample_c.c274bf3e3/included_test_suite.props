@@ -1,0 +1,14 @@
+#Test suite file data.
+#Thu Jun 24 18:37:00 JST 2021
+test_suite_additional_stubs=
+test_cases_properties=TestSuite_sample_c_cd981db,TestSuite_sample_c_cd981db_test_case;GRS\=@@PPS@@TCC\=int sampleTest(int)@@PPS@@TCD\=@@PPS@@TCCBCKS\=@@PPS@@TCE\=true@@PPS@@@@TCS@@@@TSS@@
+test_case_contexts=int sampleTest(int)@@TCC@@
+test_suite_included_by=/UnitTest/sample.c
+test_suites=TestSuite_sample_c_cd981db,TestSuite_sample_c_cd981db_test_case^16'CPPTEST_DS("test_case")@@TCS@@@@TSS@@
+registered=true
+test_suite_context=/UnitTest/sample.c
+fileVersion=5
+test_suite_description=
+test_suite_names=TestSuite_sample_c_cd981db@@TSN@@
+defined=true
+timestamp=1622194370701

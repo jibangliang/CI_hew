@@ -1,0 +1,8 @@
+UnitTest=C:\CI_hew\UnitTest_Workspace\UnitTest\resetprg.c
+UnitTest=C:\CI_hew\UnitTest_Workspace\UnitTest\sample.c
+UnitTest=C:\CI_hew\UnitTest_Workspace\UnitTest\UnitTest.c
+UnitTest=C:\CI_hew\UnitTest_Workspace\UnitTest\lowsrc.c
+UnitTest=C:\CI_hew\UnitTest_Workspace\UnitTest\dbsct.c
+UnitTest=C:\CI_hew\UnitTest_Workspace\UnitTest\sbrk.c
+#VER=1
+#CTX=24510

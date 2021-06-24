@@ -1,0 +1,22 @@
+xharness.routineManager "symbol_file=C:\Program Files\Parasoft\C++test\10.5\engine\runtime\include/*" command=setProperty property=ignored value=true
+testrunner.compilerCfgFile C:\Program Files\Parasoft\C++test\10.5\engine\etc\compilers\hew_9_4\c.psrc
+testrunner.readTestSuites C:\CI_hew\UnitTest_Workspace\.cpptest\UnitTest\unit-data\current_tubf179707/testsuites.xml
+testrunner.outputFile C:\CI_hew\UnitTest_Workspace\.cpptest\UnitTest\unit-data\current_tubf179707\cpptest_testrunner.c
+testrunner.appMode off
+pscom.tmpDir C:\CI_hew\UnitTest_Workspace\.cpptest\UnitTest\unit-data\current_tubf179707\tmp
+testrunner.runtimeProperty name=testlog.enabled value="true"
+testrunner.runtimeProperty name=testlog.file value="C:\CI_hew\UnitTest_Workspace\.cpptest\UnitTest\unit-data\current_tubf179707/cpptest_results.tlog"
+testrunner.runtimeProperty name=testlog.encoding value="windows-31j"
+testrunner.runtimeProperty name=testlog.append value="true"
+testrunner.runtimeProperty name=covlog.enabled value="true"
+testrunner.runtimeProperty name=covlog.file value="C:\CI_hew\UnitTest_Workspace\.cpptest\UnitTest\unit-data\current_tubf179707/cpptest_results.clog"
+testrunner.runtimeProperty name=covlog.append value="true"
+testrunner.runtimeProperty name=testcases.timeout value="50000"
+testrunner.runtimeProperty name=testcases.max_messages value="100"
+testrunner.runtimeProperty name=send.post.conditions value="1"
+testrunner.runtimeProperty name=send.reports value="1"
+testrunner.runtimeProperty name=send.passed.asserts value="1"
+testrunner.stubConfigHeaderFile C:\CI_hew\UnitTest_Workspace\.cpptest\UnitTest\unit-data\current_tubf179707/cpptest_stubconfig.h
+testrunner.dataFile C:\CI_hew\UnitTest_Workspace\.cpptest\UnitTest\file-data\sample.c8dc38a69\tested\harness_testrunner.xml
+testrunner.dataFile C:\CI_hew\UnitTest_Workspace\.cpptest\UnitTest\file-data\1.c6ffc3652\harness_testrunner.xml
+testrunner.dataSource array,"test_case","C:\CI_hew\UnitTest_Workspace\.cpptest\UnitTest\unit-data\current_tubf179707\ds_TestSuite_sample_c_cd981db_test_case.array","TestSuite_sample_c_cd981db",_c7f87f35,2,2

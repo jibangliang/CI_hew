@@ -1,0 +1,12 @@
+"C:\UnitTest_Workspace\UnitTest\lowlvl.src"
+-cpu=sh4a
+-endian=little
+-round=zero
+-denormalize=off
+-debug
+-object="C:\UnitTest_Workspace\UnitTest\SimDebug_SH-4A_Cycle_L\lowlvl.obj"
+-literal=pool,branch,jump,return
+-nolist
+-nologo
+-chgincpath
+-errorpath

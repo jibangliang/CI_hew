@@ -1,0 +1,116 @@
+PProDataFile version 3.3
+
+H 0 C:\CI_hew\UnitTest_Workspace\UnitTest\resetprg.c
+
+K o
+I INT_OFFSET
+F 0
+L 105
+S 105
+f 0
+l 52
+EOR
+
+H 1 C:\Program Files (x86)\Renesas\Hew\Tools\Renesas\SH\9_4_3\Include\smachine.h
+
+K f
+I set_vbr
+F 0
+L 105
+S 105
+f 1
+l 21
+EOR
+
+K o
+I FPSCR_Init
+F 0
+L 107
+S 107
+f 0
+l 40
+EOR
+
+K o
+I FPSCR_RM
+F 0
+L 107
+S 107
+f 0
+l 45
+EOR
+
+K o
+I FPSCR_DN
+F 0
+L 107
+S 107
+f 0
+l 50
+EOR
+
+H 2 C:\Program Files (x86)\Renesas\Hew\Tools\Renesas\SH\9_4_3\Include\umachine.h
+
+K f
+I set_fpscr
+F 0
+L 107
+S 107
+f 2
+l 37
+EOR
+
+K o
+I RAMCR_ADDRESS
+F 0
+L 121
+S 121
+f 0
+l 54
+EOR
+
+K o
+I RAMCR_INIT_VALUE
+F 0
+L 122
+S 122
+f 0
+l 55
+EOR
+
+K o
+I SR_Init
+F 0
+L 123
+S 123
+f 0
+l 36
+EOR
+
+K f
+I set_cr
+F 0
+L 123
+S 123
+f 1
+l 19
+EOR
+
+K o
+I SR_Init
+F 0
+L 131
+S 131
+f 0
+l 36
+EOR
+
+K f
+I sleep
+F 0
+L 131
+S 131
+f 1
+l 23
+EOR
+

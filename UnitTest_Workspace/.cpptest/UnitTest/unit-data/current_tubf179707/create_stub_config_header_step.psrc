@@ -1,0 +1,4 @@
+xharness.routineManager "symbol_file=C:\Program Files\Parasoft\C++test\10.5\engine\runtime\include/*" command=setProperty property=ignored value=true
+confgen.symbolsConfig C:\CI_hew\UnitTest_Workspace\.cpptest\UnitTest\unit-data\current_tubf179707\stubconfig.xml
+confgen.outputFile C:\CI_hew\UnitTest_Workspace\.cpptest\UnitTest\unit-data\current_tubf179707\cpptest_stubconfig.h
+confgen.symbolsFile C:\CI_hew\UnitTest_Workspace\.cpptest\UnitTest\unit-data\current_tubf179707\lsi_result

@@ -1,0 +1,1 @@
+cpptesttrace --cpptesttraceOutputFile=C:\CI_hew\UnitTest_Workspace\UnitTest\cpptestscan.bdf --cpptesttraceProjectName=TEST --cpptesttraceResponseFilePrefix=-subcommand= hmake /A 

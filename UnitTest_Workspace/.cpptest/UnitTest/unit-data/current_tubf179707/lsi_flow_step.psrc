@@ -1,0 +1,9 @@
+xharness.routineManager "symbol_file=C:\Program Files\Parasoft\C++test\10.5\engine\runtime\include/*" command=setProperty property=ignored value=true
+libdetector.ldvLinkerExecutable OptLnk
+symmatcher.storeConfig C:\CI_hew\UnitTest_Workspace\.cpptest\UnitTest\unit-data\current_tubf179707\lsi_result
+lsi.symbolsFile C:\CI_hew\UnitTest_Workspace\.cpptest\UnitTest\file-data\sample.c8dc38a69\tested\harness_symbols.xml
+lsi.symbolsFile C:\CI_hew\UnitTest_Workspace\.cpptest\UnitTest\file-data\1.c6ffc3652\harness_symbols.xml
+libdetector.doDetectLibraries on
+symmatcher.doAssumeAllInLibraries off
+lsi.cacheDir C:\CI_hew\UnitTest_Workspace\.cpptest\UnitTest\unit-data\current_tubf179707\lsi_cache
+pscom.tmpDir C:\CI_hew\UnitTest_Workspace\.cpptest\UnitTest\unit-data\current_tubf179707\tmp

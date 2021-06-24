@@ -1,0 +1,62 @@
+Optimizing Linkage Editor (V.10.02.01.000)        24-Jun-2021 18:35:43
+
+*** Options ***
+
+-subcommand=C:\Users\bji\AppData\Local\Temp\hmk5900.tmp
+noprelink
+rom D=R
+nomessage
+list "..\UnitTest\SimDebug_SH-4A_Cycle_L\UnitTest.map"
+nooptimize
+-start=PResetPRG/01000,P,C,C$BSEC,C$DSEC,D/02000,INTHandler,VECTTBL,INTTBL,IntPRG/080000400,RSTHandler/0A0000000,B/0E5000000,PIntPRG/0E500A000,S/0E5010000,R/0E501E000
+nologo
+-input="..\UnitTest\SimDebug_SH-4A_Cycle_L\dbsct.obj"
+-input="..\UnitTest\SimDebug_SH-4A_Cycle_L\intprg.obj"
+-input="..\UnitTest\SimDebug_SH-4A_Cycle_L\lowlvl.obj"
+-input="..\UnitTest\SimDebug_SH-4A_Cycle_L\lowsrc.obj"
+-input="..\UnitTest\SimDebug_SH-4A_Cycle_L\resetprg.obj"
+-input="..\UnitTest\SimDebug_SH-4A_Cycle_L\sample.obj"
+-input="..\UnitTest\SimDebug_SH-4A_Cycle_L\sbrk.obj"
+-input="..\UnitTest\SimDebug_SH-4A_Cycle_L\UnitTest.obj"
+-input="..\UnitTest\SimDebug_SH-4A_Cycle_L\vecttbl.obj"
+-input="..\UnitTest\SimDebug_SH-4A_Cycle_L\vhandler.obj"
+-library="..\UnitTest\SimDebug_SH-4A_Cycle_L\UnitTest.lib"
+-output="..\UnitTest\SimDebug_SH-4A_Cycle_L\UnitTest.abs"
+end
+
+*** Error information ***
+
+** L1100 (W) Cannot find "PIntPRG" specified in option "start"
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+PResetPRG
+                                  00001000  0000107b        7c   4
+P
+                                  00002000  00002807       808   4
+C
+                                  00002808  00002842        3b   4
+C$BSEC
+                                  00002844  0000284b         8   4
+C$DSEC
+                                  0000284c  00002857         c   4
+D
+                                  00002858  0000285f         8   4
+INTHandler
+                                  80000400  80000957       558   4
+VECTTBL
+                                  80000958  80000983        2c   4
+INTTBL
+                                  80000984  80000bf9       276   4
+IntPRG
+                                  80000bfc  80000bff         4   4
+RSTHandler
+                                  a0000000  a000001b        1c   4
+B
+                                  e5000000  e50011c3      11c4   4
+S
+                                  e5010000  e5013fff      4000   4
+R
+                                  e501e000  e501e007         8   4

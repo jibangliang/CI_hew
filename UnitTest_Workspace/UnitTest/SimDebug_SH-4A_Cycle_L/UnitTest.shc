@@ -1,0 +1,15 @@
+-cpu=sh4a
+-endian=little
+-object="C:\UnitTest_Workspace\UnitTest\SimDebug_SH-4A_Cycle_L\UnitTest.obj"
+-debug
+-gbr=auto
+-chgincpath
+-errorpath
+"C:\UnitTest_Workspace\UnitTest\UnitTest.c"
+-global_volatile=0
+-opt_range=all
+-infinite_loop=0
+-del_vacant_loop=0
+-struct_alloc=1
+-lang=c
+-nologo

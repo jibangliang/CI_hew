@@ -1,0 +1,5 @@
+
+
+CPPTEST_IO_ADDR:	.equ	H'00000000
+
+
