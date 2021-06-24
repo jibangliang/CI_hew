@@ -1,4 +1,0 @@
-fileName=
-workingDir=C:\CI_hew\UnitTest_Workspace\make
-compilerOptions=-start=PResetPRG/01000,P,C,C$BSEC,C$DSEC,D/02000,INTHandler,VECTTBL,INTTBL,IntPRG/080000400,RSTHandler/0A0000000,B/0E5000000,PIntPRG/0E500A000,S/0E5010000,R/0E501E000 "-library=..\UnitTest\SimDebug_SH-4A_Cycle_L\UnitTest.lib"
-type=CPP

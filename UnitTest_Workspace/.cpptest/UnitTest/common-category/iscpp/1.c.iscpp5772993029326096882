@@ -1,6 +1,0 @@
-fileName=C:\CI_hew\UnitTest_Workspace\UnitTest\stubs\1.c
-isCpp=
-compilerOpts=-I="C:\Program Files\Parasoft\C++test\10.5\engine\runtime\include" -DEF=PARASOFT_CPPTEST
-compilerId=hew_9_4
-workingDir=
-advancedOptionsHash=1237154733

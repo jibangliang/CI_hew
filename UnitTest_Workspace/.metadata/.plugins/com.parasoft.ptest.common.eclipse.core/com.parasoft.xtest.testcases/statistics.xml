@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TestsRun>
-   <Project err="0" fail="0" name="UnitTest" skip="0" success="2" total="1">
-      <TestCase id="CPP://-2398500523183416080" success="true"/>
-      <TestCase id="3042843597720601147" success="true"/>
-   </Project>
-</TestsRun>

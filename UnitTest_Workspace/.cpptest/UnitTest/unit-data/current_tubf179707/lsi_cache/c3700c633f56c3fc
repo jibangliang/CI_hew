@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<LibrarySymbols tool="C++Test" formatVersion="1.0" source="C:\CI_hew\UnitTest_Workspace\.cpptest\UnitTest\file-data\sample.c8dc38a69\sample.obj">
-    <Symbol name="_sampleTest" remangled="_sampleTest"/>
-    <Symbol name="_sub_sampleTest" remangled="_sub_sampleTest"/>
-</LibrarySymbols>

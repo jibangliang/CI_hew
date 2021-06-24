@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Symbols version="2.0">
-    <File name="C:\CI_hew\UnitTest_Workspace\UnitTest\stubs\1.c" id="1"/>
-    <Function id="func" name="_func" decorated_name="int func(void)" sorted_name="func" prototyped="false">
-      <definition type="user" source="code" file_id="1" line="37" col="6"/>
-    </Function>
-</Symbols>
-

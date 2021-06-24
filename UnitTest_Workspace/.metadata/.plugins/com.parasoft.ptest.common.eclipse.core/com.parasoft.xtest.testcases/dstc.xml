@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TestsRun>
-   <Project name="UnitTest">
-      <TestCase id="CPP://-2398500523183416080">
-         <dsTest id="3042843597720601147" iteration="1" testParams="Data source row: 1"/>
-      </TestCase>
-   </Project>
-</TestsRun>
